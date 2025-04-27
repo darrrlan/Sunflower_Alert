@@ -1,0 +1,2975 @@
+{
+    "state": {
+        "coins": 4069.159999999998,
+        "balance": "2.50998",
+        "previousBalance": "0",
+        "inventory": {
+            "Sunflower": "49.8",
+            "Pumpkin": "1361",
+            "Carrot": "873.0000000000000105",
+            "Soybean": "676.7",
+            "Rhubarb": "5.55",
+            "Shovel": "1",
+            "Petting Hand": "1",
+            "Nancy": "1",
+            "Lunar Calendar": "1",
+            "Basic Scarecrow": "1",
+            "Wood": "13.9",
+            "Stone": "2.2",
+            "Wild Mushroom": "23",
+            "Tree": "13",
+            "Stone Rock": "12",
+            "Iron Rock": "6",
+            "Gold Rock": "4",
+            "Crop Plot": "37",
+            "Basic Land": "8",
+            "Earthworm": "153",
+            "Sprout Mix": "43",
+            "Hay": "75",
+            "Gem": "125",
+            "Winds of Change Banner": "1",
+            "Easter Bunny": "1",
+            "Market": "1",
+            "Fire Pit": "1",
+            "Workbench": "1",
+            "Water Well": "1",
+            "Kitchen": "1",
+            "Compost Bin": "1",
+            "Basic Bear": "1",
+            "Olive Flounder": "1",
+            "Rug": "1",
+            "Wardrobe": "1",
+            "Summer Duckling": "1",
+            "Autumn Duckling": "1",
+            "Winter Duckling": "1",
+            "Soybean Seed": "105",
+            "Cabbage Seed": "390",
+            "Love Charm": "2474",
+            "Crab": "1",
+            "Rhubarb Seed": "493",
+            "Corn": "0.9",
+            "Halibut": "1",
+            "Wheat": "241.7",
+            "Potato": "1043.4",
+            "Corn Seed": "4",
+            "Trade Point": "4.25",
+            "Fruit Patch": "5",
+            "House": "1",
+            "Blossombeard": "1",
+            "Beehive": "1",
+            "Flower Bed": "1",
+            "Zucchini": "137.15",
+            "Pepper Seed": "31",
+            "Pepper": "372.65",
+            "Eggplant": "109.5",
+            "Parsnip": "15",
+            "Crimstone Rock": "1",
+            "Honey": "16",
+            "Scary Mike": "1",
+            "Beetroot": "0.5",
+            "Yellow Cosmos": "1",
+            "Zucchini Seed": "33",
+            "Banana": "9",
+            "Beetroot Seed": "12",
+            "Cauliflower Seed": "118",
+            "Egg": "10",
+            "Eggplant Seed": "4",
+            "Lemon": "10",
+            "Radish Seed": "35",
+            "Pumpkin Seed": "11",
+            "Yam Seed": "289",
+            "Easter Token 2025": "250",
+            "Tomato": "80",
+            "Yam": "34.6",
+            "Farmer Bear": "1",
+            "Broccoli Seed": "288",
+            "Artichoke": "68.25",
+            "Artichoke Seed": "29",
+            "Axe": "1",
+            "Barley": "119",
+            "Barley Seed": "8",
+            "Red Pansy": "2",
+            "Apple": "30",
+            "Broccoli": "451.5",
+            "Carrot Seed": "84",
+            "Apple Seed": "9",
+            "Banana Plant": "16",
+            "Sunpetal Seed": "4",
+            "Magic Mushroom": "2",
+            "Purple Cosmos": "2",
+            "Fried Tofu": "2",
+            "Cabbage": "2",
+            "Wheat Seed": "2",
+            "Kale": "5",
+            "Yellow Pansy": "1"
+        },
+        "previousInventory": {
+            "Sunflower": "1342.7",
+            "Pumpkin": "8",
+            "Carrot": "25.8",
+            "Cabbage": "118.3",
+            "Soybean": "72",
+            "Rhubarb": "187.15",
+            "Shovel": "1",
+            "Petting Hand": "1",
+            "Nancy": "1",
+            "Lunar Calendar": "1",
+            "Basic Scarecrow": "1",
+            "Wood": "1.5",
+            "Stone": "17.9",
+            "Wild Mushroom": "4",
+            "Magic Mushroom": "2",
+            "Tree": "9",
+            "Stone Rock": "7",
+            "Iron Rock": "3",
+            "Gold Rock": "2",
+            "Crop Plot": "29",
+            "Basic Land": "8",
+            "Earthworm": "7",
+            "Sprout Mix": "10",
+            "Hay": "75",
+            "Gem": "105",
+            "Winds of Change Banner": "1",
+            "Easter Bunny": "1",
+            "Market": "1",
+            "Fire Pit": "1",
+            "Workbench": "1",
+            "Water Well": "1",
+            "Kitchen": "1",
+            "Town Center": "1",
+            "Compost Bin": "1",
+            "Basic Bear": "1",
+            "Olive Flounder": "1",
+            "Porgy": "2",
+            "Rug": "1",
+            "Wardrobe": "1",
+            "Summer Duckling": "1",
+            "Autumn Duckling": "1",
+            "Winter Duckling": "1"
+        },
+        "shipments": {
+            "restockedAt": 1745715533451
+        },
+        "gems": {
+            "history": {
+                "2025-04-09": {
+                    "spent": 8
+                }
+            }
+        },
+        "flower": {},
+        "choreBoard": {
+            "chores": {
+                "betty": {
+                    "name": "Harvest Yam 30 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435,
+                    "completedAt": 1745290227489
+                },
+                "grimtooth": {
+                    "name": "Drink 15 Banana Blast",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "peggy": {
+                    "name": "Harvest Carrots 75 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 929,
+                    "startedAt": 1745195784435,
+                    "completedAt": 1745290229339
+                },
+                "miranda": {
+                    "name": "Grow Yellow Pansy 2 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 1,
+                    "startedAt": 1745195784435
+                },
+                "grimbly": {
+                    "name": "Prepare Apple Juice 6 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "corale": {
+                    "name": "Eat 20 Tunas",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "pumpkin' pete": {
+                    "name": "Eat 15 Boiled Eggs",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 1
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "gordo": {
+                    "name": "Cook Potato Cake 7 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "bert": {
+                    "name": "Collect 18 Honey",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 4,
+                    "startedAt": 1745195784435
+                },
+                "finn": {
+                    "name": "Cook Gumbo 30 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "raven": {
+                    "name": "Cook Caprese Salad 4 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "victoria": {
+                    "name": "Grow Red Balloon Flower 4 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "old salty": {
+                    "name": "Dig 50 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "birdie": {
+                    "name": "Collect Eggs 60 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 2
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "blacksmith": {
+                    "name": "Craft 40 Gold Pickaxes",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "pharaoh": {
+                    "name": "Craft 15 Sand Drill",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "finley": {
+                    "name": "Cook Chowder 21 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "guria": {
+                    "name": "Grow White Lotus 3 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                },
+                "cornwell": {
+                    "name": "Harvest Wheat 250 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 33,
+                    "startedAt": 1745195784435
+                },
+                "tywin": {
+                    "name": "Spend 32,000 Coins",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 12057,
+                    "startedAt": 1745195784435
+                },
+                "tango": {
+                    "name": "Cook Antipasto 25 times",
+                    "reward": {
+                        "items": {
+                            "Timeshard": 3
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745195784435
+                }
+            }
+        },
+        "bank": {
+            "taxFreeSFL": 37.14047999999999
+        },
+        "bumpkin": {
+            "id": 3349809990567285,
+            "tokenUri": "3349809990567285_v1_47_1_49_13_19_22_45",
+            "equipped": {
+                "background": "Forest Background",
+                "body": "Beige Farmer Potion",
+                "hair": "Basic Hair",
+                "shoes": "Black Farmer Boots",
+                "tool": "Farmer Pitchfork",
+                "shirt": "Red Farmer Shirt",
+                "pants": "Farmer Overalls",
+                "hat": "Pumpkin Hat"
+            },
+            "experience": 65327.8,
+            "skills": {
+                "Betty's Friend": 1,
+                "Chonky Scarecrow": 1,
+                "Experienced Farmer": 1,
+                "Green Thumb": 1,
+                "Strong Roots": 1,
+                "Young Farmer": 1,
+                "Forge-Ward Profits": 1,
+                "Hectare Farm": 1,
+                "Acre Farm": 1,
+                "Horror Mike": 1,
+                "Instant Growth": 1,
+                "Old Farmer": 1
+            },
+            "achievements": {
+                "Sun Seeker": 1,
+                "Busy Bumpkin": 1,
+                "Kiss the Cook": 1,
+                "Craftmanship": 1,
+                "Timbeerrr": 1,
+                "Driller": 1,
+                "Cabbage King": 1,
+                "Farm Hand": 1,
+                "Jack O'Latern": 1
+            },
+            "activity": {
+                "Tree Chopped": 252,
+                "Coins Earned": 22474.41,
+                "Sunflower Harvested": 4493,
+                "Sunflower Sold": 123,
+                "Potato Harvested": 1537,
+                "Coins Spent": 19615,
+                "Sunflower Seed Bought": 3900,
+                "Mashed Potato Cooked": 35,
+                "Sunflower Planted": 4481,
+                "Mashed Potato Fed": 1,
+                "Basic Scarecrow Crafted": 1,
+                "Axe Crafted": 235,
+                "Pickaxe Crafted": 55,
+                "Stone Mined": 85,
+                "Petting Hand Crafted": 1,
+                "Pumpkin Harvested": 988,
+                "Rhubarb Seed Bought": 1700,
+                "Rhubarb Planted": 1368,
+                "Rhubarb Harvested": 1368,
+                "Rhubarb Tart Cooked": 49,
+                "Rhubarb Tart Fed": 28,
+                "Building Constructed": 3,
+                "Soybean Planted": 1093,
+                "Soybean Seed Bought": 1050,
+                "Soybean Harvested": 1056,
+                "Soybean Sold": 27.5,
+                "Carrot Planted": 1344,
+                "Carrot Seed Bought": 1240,
+                "Carrot Harvested": 1348,
+                "Reindeer Carrot Cooked": 36,
+                "Reindeer Carrot Fed": 18,
+                "Collectible Placed": 24,
+                "Carrot Sold": 10,
+                "Club Sandwich Fed": 1,
+                "Cabbage Planted": 330,
+                "Cabbage Seed Bought": 680,
+                "Fried Tofu Cooked": 75,
+                "Fried Tofu Fed": 73,
+                "Cabbage Harvested": 334,
+                "Bumpkin Broth Cooked": 19,
+                "Bumpkin Broth Fed": 19,
+                "Iron Mined": 10,
+                "Stone Pickaxe Crafted": 5,
+                "Community Coin Sold": 1,
+                "Corn Planted": 232,
+                "Corn Seed Bought": 207,
+                "Compost Bin Collected": 60,
+                "Crop Fertilised": 557,
+                "Rod Casted": 26,
+                "Rod Crafted": 16,
+                "Boiled Eggs Cooked": 1,
+                "Corn Harvested": 232,
+                "Iron Pickaxe Crafted": 2,
+                "Gold Mined": 2,
+                "Carrot Cake Fed": 3,
+                "Collectible Removed": 13,
+                "Cabbage Sold": 61,
+                "Porgy Fed": 2,
+                "Rhubarb Sold": 1,
+                "Beetroot Blaze Cooked": 5,
+                "Beetroot Blaze Fed": 5,
+                "Popcorn Cooked": 1,
+                "SFL Earned": 6.45,
+                "Wheat Planted": 175,
+                "Wheat Seed Bought": 155,
+                "Potato Cake Fed": 3,
+                "Mushroom Soup Cooked": 4,
+                "Mushroom Soup Fed": 2,
+                "Wheat Harvested": 175,
+                "Pumpkin Cake Fed": 5,
+                "Sunflower Crunch Cooked": 2,
+                "Cauliflower Harvested": 72,
+                "Apple Harvested": 42,
+                "Building Placed": 3,
+                "Zucchini Planted": 539,
+                "Zucchini Seed Bought": 520,
+                "Radish Cake Fed": 1,
+                "Sunpetal Seed Bought": 16,
+                "Sunpetal Seed Planted": 12,
+                "Potato Seed Bought": 1350,
+                "Zucchini Harvested": 539,
+                "Potato Planted": 1527,
+                "Pepper Planted": 249,
+                "Pepper Seed Bought": 240,
+                "Club Sandwich Cooked": 1,
+                "Pepper Harvested": 249,
+                "Eggplant Planted": 103,
+                "Eggplant Seed Bought": 100,
+                "Eggplant Harvested": 103,
+                "Honey Harvested": 11,
+                "Yellow Pansy Harvested": 2,
+                "Scary Mike Crafted": 1,
+                "Beetroot Seed Bought": 220,
+                "Beetroot Planted": 235,
+                "Beetroot Harvested": 235,
+                "Sunflower Cake Fed": 1,
+                "Yellow Cosmos Harvested": 1,
+                "Pepper Sold": 5,
+                "Banana Plant Bought": 20,
+                "Banana Plant Planted": 4,
+                "Pumpkin Soup Cooked": 15,
+                "Cauliflower Seed Bought": 180,
+                "Cauliflower Planted": 70,
+                "Banana Harvested": 15,
+                "Blue Cosmos Harvested": 3,
+                "Roast Veggies Cooked": 1,
+                "Lemon Seed Bought": 2,
+                "Lemon Seed Planted": 2,
+                "Lemon Harvested": 10,
+                "Radish Seed Bought": 35,
+                "Pumpkin Planted": 980,
+                "Pumpkin Seed Bought": 810,
+                "Tomato Seed Bought": 20,
+                "Tomato Seed Planted": 20,
+                "Yam Planted": 244,
+                "Yam Seed Bought": 500,
+                "Tornado Pinwheel Crafted": 1,
+                "Tomato Harvested": 80,
+                "Yam Harvested": 244,
+                "Purple Cosmos Harvested": 3,
+                "Bumpkin Salad Cooked": 1,
+                "Artichoke Planted": 35,
+                "Artichoke Seed Bought": 60,
+                "Broccoli Seed Bought": 480,
+                "Artichoke Harvested": 35,
+                "Barley Seed Bought": 70,
+                "Barley Planted": 70,
+                "Apple Seed Bought": 20,
+                "Apple Seed Planted": 11,
+                "Barley Harvested": 70,
+                "Broccoli Planted": 210,
+                "Red Pansy Harvested": 2,
+                "Treasure Key Bought": 1,
+                "Broccoli Harvested": 210,
+                "Sauerkraut Fed": 1,
+                "Goblin's Treat Fed": 1,
+                "Beetroot Cake Fed": 3
+            },
+            "updatedAt": 1743832563572,
+            "paidSkillResets": 0,
+            "previousFreeSkillResetAt": 1744742529812,
+            "previousPowerUseAt": {
+                "Instant Growth": 1745681962486
+            }
+        },
+        "experiments": [
+            "GEM_BOOSTS"
+        ],
+        "wardrobe": {
+            "Beige Farmer Potion": 2,
+            "Basic Hair": 1,
+            "Red Farmer Shirt": 2,
+            "Farmer Overalls": 1,
+            "Lumberjack Overalls": 1,
+            "Black Farmer Boots": 2,
+            "Farmer Pitchfork": 1,
+            "Farm Background": 1,
+            "Sword": 1,
+            "Forest Background": 1,
+            "Blondie": 1,
+            "Companion Cap": 1,
+            "Pumpkin Hat": 1
+        },
+        "previousWardrobe": {
+            "Beige Farmer Potion": 2,
+            "Basic Hair": 1,
+            "Red Farmer Shirt": 2,
+            "Farmer Overalls": 1,
+            "Lumberjack Overalls": 1,
+            "Black Farmer Boots": 2,
+            "Farmer Pitchfork": 1,
+            "Farm Background": 1,
+            "Sword": 1,
+            "Forest Background": 1,
+            "Blondie": 1,
+            "Companion Cap": 1
+        },
+        "home": {
+            "collectibles": {
+                "Wardrobe": [
+                    {
+                        "id": "1",
+                        "createdAt": 1743832562076,
+                        "coordinates": {
+                            "x": 1,
+                            "y": 3
+                        },
+                        "readyAt": 1743832562076
+                    }
+                ],
+                "Rug": [
+                    {
+                        "id": "2",
+                        "createdAt": 1743832562076,
+                        "coordinates": {
+                            "x": 0,
+                            "y": 2
+                        },
+                        "readyAt": 1743832562076
+                    }
+                ],
+                "Nancy": [
+                    {
+                        "id": "0332b34d",
+                        "createdAt": 1745063443586,
+                        "coordinates": {
+                            "x": 5,
+                            "y": -5
+                        },
+                        "readyAt": 1745063443586
+                    }
+                ],
+                "Lunar Calendar": [
+                    {
+                        "id": "ee13ccb8",
+                        "createdAt": 1745063449367,
+                        "coordinates": {
+                            "x": 4,
+                            "y": -5
+                        },
+                        "readyAt": 1745063449367
+                    }
+                ],
+                "Easter Bunny": [
+                    {
+                        "id": "104c19ff",
+                        "createdAt": 1745215869105,
+                        "coordinates": {
+                            "x": 2,
+                            "y": -5
+                        },
+                        "readyAt": 1745215869105
+                    }
+                ],
+                "Blossombeard": [
+                    {
+                        "id": "afa69ffa",
+                        "createdAt": 1745698129619,
+                        "coordinates": {
+                            "x": -6,
+                            "y": -5
+                        },
+                        "readyAt": 1745698129619
+                    }
+                ]
+            }
+        },
+        "island": {
+            "type": "spring",
+            "previousExpansions": 9,
+            "sunstones": 0,
+            "upgradedAt": 1744827527118
+        },
+        "farmHands": {
+            "bumpkins": {}
+        },
+        "greenhouse": {
+            "oil": 100,
+            "pots": {}
+        },
+        "competitions": {
+            "progress": {}
+        },
+        "calendar": {
+            "dates": [
+                {
+                    "name": "doubleDelivery",
+                    "date": "2025-05-01"
+                },
+                {
+                    "date": "2025-05-02",
+                    "weather": true,
+                    "name": "unknown"
+                },
+                {
+                    "name": "doubleDelivery",
+                    "date": "2025-05-08"
+                },
+                {
+                    "date": "2025-05-10",
+                    "weather": true,
+                    "name": "unknown"
+                },
+                {
+                    "name": "doubleDelivery",
+                    "date": "2025-05-16"
+                },
+                {
+                    "date": "2025-05-18",
+                    "weather": true,
+                    "name": "unknown"
+                },
+                {
+                    "date": "2025-05-22",
+                    "weather": true,
+                    "name": "unknown"
+                },
+                {
+                    "name": "doubleDelivery",
+                    "date": "2025-05-25"
+                },
+                {
+                    "name": "fullMoon",
+                    "date": "2025-05-12"
+                },
+                {
+                    "name": "sunshower",
+                    "date": "2025-04-22",
+                    "weather": true
+                },
+                {
+                    "name": "tornado",
+                    "date": "2025-04-25",
+                    "weather": true
+                }
+            ]
+        },
+        "vip": {
+            "expiresAt": 1752030902813,
+            "bundles": [
+                {
+                    "name": "3_MONTHS",
+                    "boughtAt": 1743995702813
+                }
+            ]
+        },
+        "createdAt": 1743832563549,
+        "stock": {
+            "Axe": "200",
+            "Pickaxe": "60",
+            "Stone Pickaxe": "20",
+            "Iron Pickaxe": "5",
+            "Gold Pickaxe": "5",
+            "Oil Drill": "5",
+            "Rod": "50",
+            "Parsnip Seed": "120",
+            "Onion Seed": "100",
+            "Turnip Seed": "80",
+            "Radish Seed": "80",
+            "Kale Seed": "60",
+            "Grape Seed": "10",
+            "Olive Seed": "10",
+            "Rice Seed": "10",
+            "Lemon Seed": "20",
+            "Blueberry Seed": "20",
+            "Orange Seed": "20",
+            "Banana Plant": "20",
+            "Sunpetal Seed": "16",
+            "Bloom Seed": "8",
+            "Lily Seed": "4",
+            "Edelweiss Seed": "4",
+            "Gladiolus Seed": "4",
+            "Lavender Seed": "4",
+            "Clover Seed": "4",
+            "Sand Shovel": "50",
+            "Sand Drill": "10",
+            "Corn Seed": "100",
+            "Cabbage Seed": "180",
+            "Rhubarb Seed": "400",
+            "Beetroot Seed": "160",
+            "Cauliflower Seed": "160",
+            "Pepper Seed": "160",
+            "Sunflower Seed": "800",
+            "Zucchini Seed": "400",
+            "Apple Seed": "20",
+            "Artichoke Seed": "60",
+            "Barley Seed": "50",
+            "Eggplant Seed": "100",
+            "Tomato Seed": "20",
+            "Wheat Seed": "7"
+        },
+        "crops": {
+            "1": {
+                "createdAt": 0,
+                "x": -2,
+                "y": 0,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "c1af399c",
+                    "plantedAt": 1745784774298,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "2": {
+                "createdAt": 0,
+                "x": -1,
+                "y": 0,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "80bb000e",
+                    "plantedAt": 1745784774441,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "3": {
+                "createdAt": 0,
+                "x": 0,
+                "y": 0,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "61bb0b60",
+                    "plantedAt": 1745784774636,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "4": {
+                "createdAt": 0,
+                "x": -3,
+                "y": 0,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "c40ff588",
+                    "plantedAt": 1745784774112,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "5": {
+                "createdAt": 0,
+                "x": 1,
+                "y": -1,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "c33248b2",
+                    "plantedAt": 1745784775650,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "6": {
+                "createdAt": 0,
+                "x": -3,
+                "y": 1,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "1aa31e99",
+                    "plantedAt": 1745784773617,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "7": {
+                "createdAt": 0,
+                "x": -2,
+                "y": 1,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "2700d1e6",
+                    "plantedAt": 1745784773432,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "8": {
+                "createdAt": 0,
+                "x": -1,
+                "y": 1,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "0e316908",
+                    "plantedAt": 1745784773255,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "9": {
+                "createdAt": 0,
+                "x": 0,
+                "y": 1,
+                "height": 1,
+                "width": 1,
+                "crop": {
+                    "id": "347d881e",
+                    "plantedAt": 1745784773063,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "10": {
+                "createdAt": 1703365405829,
+                "x": 1,
+                "y": 1,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "7901ec7d",
+                    "plantedAt": 1745784772887,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "11": {
+                "createdAt": 1703365405976,
+                "x": 1,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "45bab441",
+                    "plantedAt": 1745784774806,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "12": {
+                "createdAt": 1703365406093,
+                "x": 0,
+                "y": -1,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "ff18c3a9",
+                    "plantedAt": 1745784775851,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "13": {
+                "createdAt": 0,
+                "x": 2,
+                "y": 1,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "09fe867d",
+                    "plantedAt": 1745784772738,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "14": {
+                "createdAt": 1703365409776,
+                "x": 2,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "4f5fda38",
+                    "plantedAt": 1745784774963,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "15": {
+                "createdAt": 1703365409926,
+                "x": -1,
+                "y": -1,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "2f51d912",
+                    "plantedAt": 1745784776005,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "16": {
+                "createdAt": 1703365428830,
+                "x": -3,
+                "y": 4,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "f68c1be1",
+                    "plantedAt": 1745784767892,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "17": {
+                "createdAt": 1703365429062,
+                "x": -3,
+                "y": 3,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "bfc8b0e4",
+                    "plantedAt": 1745784770515,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "18": {
+                "createdAt": 1703365429630,
+                "x": -3,
+                "y": 2,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "fdb93b82",
+                    "plantedAt": 1745784771113,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "57046650": {
+                "createdAt": 1744915618959,
+                "height": 1,
+                "width": 1,
+                "x": 2,
+                "y": 4,
+                "crop": {
+                    "id": "16eeac1a",
+                    "plantedAt": 1745784768561,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "4abe6688": {
+                "createdAt": 1744828798034,
+                "x": -2,
+                "y": 2,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "56e8c489",
+                    "plantedAt": 1745784771282,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "fad5577f": {
+                "createdAt": 1744828799889,
+                "x": -1,
+                "y": 3,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "b659ce38",
+                    "plantedAt": 1745784770209,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "139b4920": {
+                "createdAt": 1744828802529,
+                "x": 0,
+                "y": 2,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "0b8ef02d",
+                    "plantedAt": 1745784771839,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "1771b863": {
+                "createdAt": 1744828803790,
+                "x": 1,
+                "y": 3,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "f570bfdc",
+                    "plantedAt": 1745784769699,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "37d9bf6f": {
+                "createdAt": 1744828808899,
+                "x": -2,
+                "y": 3,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "db547004",
+                    "plantedAt": 1745784770375,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "3a8b2048": {
+                "createdAt": 1744828802380,
+                "x": 0,
+                "y": 3,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "ab853eee",
+                    "plantedAt": 1745784769857,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "4e144863": {
+                "createdAt": 1744828807144,
+                "x": -2,
+                "y": -1,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "ed52373b",
+                    "plantedAt": 1745784776197,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "6bc37163": {
+                "createdAt": 1744828805487,
+                "x": 2,
+                "y": 2,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "2de3738c",
+                    "plantedAt": 1745784772176,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "6cd5598c": {
+                "createdAt": 1744828810525,
+                "x": -1,
+                "y": 4,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "cb2d245c",
+                    "plantedAt": 1745784768212,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "9f9b668c": {
+                "createdAt": 1744828803949,
+                "x": 1,
+                "y": 2,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "8c8f9753",
+                    "plantedAt": 1745784772017,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "ae6933d5": {
+                "createdAt": 1744828800068,
+                "x": -1,
+                "y": 2,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "9146abc9",
+                    "plantedAt": 1745784771442,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "d9908880": {
+                "createdAt": 1744828806913,
+                "x": -3,
+                "y": -1,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "06169fb6",
+                    "plantedAt": 1745784776346,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "da225c4c": {
+                "createdAt": 1744828805351,
+                "x": 2,
+                "y": 3,
+                "width": 1,
+                "height": 1,
+                "crop": {
+                    "id": "4921eaed",
+                    "plantedAt": 1745784769499,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "2e3bd685": {
+                "createdAt": 1744829008334,
+                "height": 1,
+                "width": 1,
+                "x": -2,
+                "y": 4,
+                "crop": {
+                    "id": "4973e6b7",
+                    "plantedAt": 1745784768026,
+                    "name": "Soybean",
+                    "amount": 1.9,
+                    "reward": {
+                        "items": [
+                            {
+                                "amount": 2,
+                                "name": "Soybean Seed"
+                            }
+                        ]
+                    }
+                }
+            },
+            "de1c1caf": {
+                "createdAt": 1744829008334,
+                "height": 1,
+                "width": 1,
+                "x": 0,
+                "y": 4,
+                "crop": {
+                    "id": "6a10cee2",
+                    "plantedAt": 1745784768390,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "376332fa": {
+                "createdAt": 1744915618959,
+                "height": 1,
+                "width": 1,
+                "x": 1,
+                "y": 4,
+                "crop": {
+                    "id": "7f94a92f",
+                    "plantedAt": 1745784769216,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "169f1bbc": {
+                "createdAt": 1745721259209,
+                "height": 1,
+                "width": 1,
+                "x": -3,
+                "y": -2,
+                "crop": {
+                    "id": "116d11ce",
+                    "plantedAt": 1745784776980,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            },
+            "972ef45c": {
+                "createdAt": 1745721259209,
+                "height": 1,
+                "width": 1,
+                "x": 2,
+                "y": -1,
+                "crop": {
+                    "id": "ba618a56",
+                    "plantedAt": 1745784775490,
+                    "name": "Soybean",
+                    "amount": 1.9
+                }
+            }
+        },
+        "trees": {
+            "1": {
+                "createdAt": 1744820542481,
+                "wood": {
+                    "amount": 2,
+                    "choppedAt": 1745706859033
+                },
+                "x": -9,
+                "y": -6,
+                "height": 2,
+                "width": 2
+            },
+            "2": {
+                "createdAt": 1744820542481,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                },
+                "x": -7,
+                "y": -6,
+                "height": 2,
+                "width": 2
+            },
+            "3": {
+                "createdAt": 1744820542481,
+                "wood": {
+                    "amount": 2,
+                    "choppedAt": 1745706859033
+                },
+                "x": -5,
+                "y": -4,
+                "height": 2,
+                "width": 2
+            },
+            "8d8db5f0": {
+                "createdAt": 1744829008333,
+                "height": 2,
+                "width": 2,
+                "x": -9,
+                "y": -2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "d34e7299": {
+                "createdAt": 1744829008333,
+                "height": 2,
+                "width": 2,
+                "x": -9,
+                "y": -4,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "cf0111e5": {
+                "createdAt": 1744829365144,
+                "height": 2,
+                "width": 2,
+                "x": -7,
+                "y": -2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "04f3c7e5": {
+                "createdAt": 1744829749623,
+                "x": -7,
+                "y": -4,
+                "width": 2,
+                "height": 2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "36c47936": {
+                "createdAt": 1744829748853,
+                "x": -5,
+                "y": -2,
+                "width": 2,
+                "height": 2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "9e064df1": {
+                "createdAt": 1744915618959,
+                "height": 2,
+                "width": 2,
+                "x": -5,
+                "y": -6,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "0a23f1c0": {
+                "createdAt": 1744916487982,
+                "x": -9,
+                "y": 0,
+                "width": 2,
+                "height": 2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "2f43d5ac": {
+                "createdAt": 1744916490921,
+                "x": -5,
+                "y": 0,
+                "width": 2,
+                "height": 2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "415ffc1d": {
+                "createdAt": 1744916492906,
+                "x": -9,
+                "y": 2,
+                "width": 2,
+                "height": 2,
+                "wood": {
+                    "amount": 1,
+                    "choppedAt": 1745706859033
+                }
+            },
+            "5275b303": {
+                "createdAt": 1744916489475,
+                "x": -7,
+                "y": 0,
+                "width": 2,
+                "height": 2,
+                "wood": {
+                    "amount": 2,
+                    "choppedAt": 1745706859033
+                }
+            }
+        },
+        "stones": {
+            "1": {
+                "createdAt": 1744820542481,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                },
+                "x": -9,
+                "y": 5,
+                "height": 1,
+                "width": 1
+            },
+            "2": {
+                "createdAt": 1744820542481,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                },
+                "x": -9,
+                "y": 6,
+                "height": 1,
+                "width": 1
+            },
+            "7ebfba16": {
+                "createdAt": 1744829008333,
+                "height": 1,
+                "width": 1,
+                "x": -9,
+                "y": 7,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "cbed465c": {
+                "createdAt": 1744829008334,
+                "height": 1,
+                "width": 1,
+                "x": -9,
+                "y": 8,
+                "stone": {
+                    "amount": 2,
+                    "minedAt": 1745678059033
+                }
+            },
+            "5ac2fb65": {
+                "createdAt": 1744829365144,
+                "height": 1,
+                "width": 1,
+                "x": -8,
+                "y": 5,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "46f60934": {
+                "createdAt": 1744915618959,
+                "height": 1,
+                "width": 1,
+                "x": -8,
+                "y": 9,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "10a7482f": {
+                "createdAt": 1744916461023,
+                "x": -8,
+                "y": 8,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "25a8c115": {
+                "createdAt": 1744916462293,
+                "x": -8,
+                "y": 6,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "4399e462": {
+                "createdAt": 1744916463936,
+                "x": -7,
+                "y": 9,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "7dbe25b7": {
+                "createdAt": 1744916464751,
+                "x": -7,
+                "y": 8,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "e5ccc453": {
+                "createdAt": 1744916461552,
+                "x": -8,
+                "y": 7,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            },
+            "8d3756f7": {
+                "createdAt": 1745721259209,
+                "height": 1,
+                "width": 1,
+                "x": -7,
+                "y": 4,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745678059033
+                }
+            }
+        },
+        "iron": {
+            "1": {
+                "x": -7,
+                "y": 6,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745634859033
+                },
+                "createdAt": 1744820542481
+            },
+            "0e289e30": {
+                "createdAt": 1744829008334,
+                "height": 1,
+                "width": 1,
+                "x": -7,
+                "y": 7,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745634859033
+                }
+            },
+            "36bdca4a": {
+                "createdAt": 1744916473992,
+                "x": -6,
+                "y": 9,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745634859033
+                }
+            },
+            "4d20d4c3": {
+                "createdAt": 1744916472485,
+                "x": -7,
+                "y": 5,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 2,
+                    "minedAt": 1745634859033
+                }
+            },
+            "e7a14939": {
+                "createdAt": 1744916474465,
+                "x": -6,
+                "y": 8,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745634859033
+                }
+            },
+            "bfaf5ac2": {
+                "createdAt": 1745721259209,
+                "height": 1,
+                "width": 1,
+                "x": -7,
+                "y": 3,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745634859033
+                }
+            }
+        },
+        "gold": {
+            "1": {
+                "x": -6,
+                "y": 6,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 2,
+                    "minedAt": 1745548459033
+                },
+                "createdAt": 1744820542481
+            },
+            "96f4ff0e": {
+                "createdAt": 1744829008334,
+                "height": 1,
+                "width": 1,
+                "x": -6,
+                "y": 5,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745548459033
+                }
+            },
+            "d57b734c": {
+                "createdAt": 1744916479209,
+                "x": -6,
+                "y": 7,
+                "width": 1,
+                "height": 1,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745548459033
+                }
+            },
+            "a90111da": {
+                "createdAt": 1745721259209,
+                "height": 1,
+                "width": 1,
+                "x": -6,
+                "y": 4,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745548459033
+                }
+            }
+        },
+        "crimstones": {
+            "9c986d39": {
+                "createdAt": 1744915618959,
+                "height": 2,
+                "width": 2,
+                "x": -9,
+                "y": 4,
+                "stone": {
+                    "amount": 1,
+                    "minedAt": 1745634859033
+                },
+                "minesLeft": 5
+            }
+        },
+        "oilReserves": {},
+        "sunstones": {},
+        "fruitPatches": {
+            "1": {
+                "x": -3,
+                "y": -5,
+                "height": 2,
+                "width": 2,
+                "createdAt": 1744820542481,
+                "fruit": {
+                    "name": "Apple",
+                    "plantedAt": 1745597287522,
+                    "amount": 1,
+                    "harvestedAt": 1745769457665,
+                    "harvestsLeft": 1
+                }
+            },
+            "2": {
+                "x": 1,
+                "y": -5,
+                "height": 2,
+                "width": 2,
+                "createdAt": 1744820542481,
+                "fruit": {
+                    "name": "Apple",
+                    "plantedAt": 1745716975718,
+                    "amount": 1,
+                    "harvestedAt": 1745769458956,
+                    "harvestsLeft": 3
+                }
+            },
+            "c2ac4ed2": {
+                "createdAt": 1744829008334,
+                "height": 2,
+                "width": 2,
+                "x": -1,
+                "y": -7,
+                "fruit": {
+                    "name": "Apple",
+                    "plantedAt": 1745769462115,
+                    "amount": 1,
+                    "harvestedAt": 0,
+                    "harvestsLeft": 4
+                }
+            },
+            "4c5fd30a": {
+                "createdAt": 1744829365144,
+                "height": 2,
+                "width": 2,
+                "x": -1,
+                "y": -5,
+                "fruit": {
+                    "name": "Apple",
+                    "plantedAt": 1745769461595,
+                    "amount": 1,
+                    "harvestedAt": 0,
+                    "harvestsLeft": 4
+                }
+            },
+            "4f48c15f": {
+                "createdAt": 1745721259209,
+                "height": 2,
+                "width": 2,
+                "x": -3,
+                "y": -7,
+                "fruit": {
+                    "amount": 1,
+                    "harvestedAt": 1745769457449,
+                    "harvestsLeft": 1,
+                    "name": "Apple",
+                    "plantedAt": 0
+                }
+            }
+        },
+        "flowers": {
+            "discovered": {},
+            "flowerBeds": {
+                "0": {
+                    "height": 1,
+                    "width": 3,
+                    "x": 4,
+                    "y": -2,
+                    "createdAt": 1744829365145,
+                    "flower": {
+                        "plantedAt": 1745793395196,
+                        "amount": 1,
+                        "name": "Purple Cosmos"
+                    }
+                }
+            }
+        },
+        "beehives": {
+            "0": {
+                "height": 1,
+                "width": 1,
+                "x": 5,
+                "y": -1,
+                "honey": {
+                    "produced": 0,
+                    "updatedAt": 1745793395196
+                },
+                "flowers": [
+                    {
+                        "attachedAt": 1745793395196,
+                        "attachedUntil": 1745879795196,
+                        "id": "0",
+                        "rate": 1
+                    }
+                ],
+                "swarm": false
+            }
+        },
+        "trades": {
+            "dailyListings": {
+                "count": 3,
+                "date": 114
+            },
+            "listings": {},
+            "soldCount": 28,
+            "tradePoints": 4.25,
+            "offers": {}
+        },
+        "chickens": {},
+        "bertObsession": {
+            "type": "collectible",
+            "name": "Yellow Pansy",
+            "startDate": 1745668800000,
+            "endDate": 1745884800000,
+            "reward": 25
+        },
+        "expandedAt": 1745714057369,
+        "buildings": {
+            "Workbench": [
+                {
+                    "id": "1",
+                    "readyAt": 0,
+                    "coordinates": {
+                        "x": 6,
+                        "y": 4
+                    },
+                    "createdAt": 0
+                }
+            ],
+            "Market": [
+                {
+                    "id": "1",
+                    "readyAt": 0,
+                    "coordinates": {
+                        "x": 6,
+                        "y": 2
+                    },
+                    "createdAt": 0
+                }
+            ],
+            "Fire Pit": [
+                {
+                    "coordinates": {
+                        "x": 6,
+                        "y": 0
+                    },
+                    "createdAt": 0,
+                    "id": "1123",
+                    "readyAt": 0,
+                    "cancelled": {
+                        "Mashed Potato": {
+                            "count": 1,
+                            "cancelledAt": 1745606868702
+                        }
+                    },
+                    "crafting": [],
+                    "oil": 0
+                }
+            ],
+            "House": [
+                {
+                    "id": "1",
+                    "readyAt": 0,
+                    "coordinates": {
+                        "x": 0,
+                        "y": 9
+                    },
+                    "createdAt": 0
+                }
+            ],
+            "Water Well": [
+                {
+                    "id": "40b0768f",
+                    "createdAt": 1744828849020,
+                    "coordinates": {
+                        "x": 4,
+                        "y": 9
+                    },
+                    "readyAt": 1744828849020
+                }
+            ],
+            "Compost Bin": [
+                {
+                    "id": "3a545a64",
+                    "createdAt": 1744829773300,
+                    "coordinates": {
+                        "x": 6,
+                        "y": 9
+                    },
+                    "readyAt": 1744829773300,
+                    "producing": {
+                        "items": {
+                            "Sprout Mix": 10,
+                            "Earthworm": 3
+                        },
+                        "startedAt": 1745776806418,
+                        "readyAt": 1745798406418
+                    }
+                }
+            ],
+            "Kitchen": [
+                {
+                    "id": "c419b1af",
+                    "createdAt": 1744829781144,
+                    "coordinates": {
+                        "x": 5,
+                        "y": 7
+                    },
+                    "readyAt": 1744829781144,
+                    "cancelled": {},
+                    "crafting": [],
+                    "oil": 0
+                }
+            ]
+        },
+        "collectibles": {
+            "Basic Scarecrow": [
+                {
+                    "id": "0aa17bd2",
+                    "createdAt": 1744828823174,
+                    "coordinates": {
+                        "x": 0,
+                        "y": 5
+                    },
+                    "readyAt": 1744828823174
+                }
+            ],
+            "Winds of Change Banner": [
+                {
+                    "id": "0e2cd843",
+                    "createdAt": 1744916500793,
+                    "coordinates": {
+                        "x": -4,
+                        "y": 5
+                    },
+                    "readyAt": 1744916500793
+                }
+            ],
+            "Scary Mike": [
+                {
+                    "id": "41deea1d",
+                    "coordinates": {
+                        "x": -1,
+                        "y": 5
+                    },
+                    "readyAt": 1744935373501,
+                    "createdAt": 1744935313501
+                }
+            ]
+        },
+        "pumpkinPlaza": {
+            "keysBought": {
+                "treasureShop": {},
+                "megastore": {},
+                "factionShop": {}
+            },
+            "vipChest": {
+                "openedAt": 1743995719626
+            },
+            "blockchainBox": {
+                "openedAt": 1744027139920,
+                "tier": 1,
+                "vipDays": 0,
+                "items": {
+                    "Love Charm": 50
+                }
+            },
+            "treasureChest": {
+                "openedAt": 1745448075610,
+                "claimed": {
+                    "coins": 3200,
+                    "items": {
+                        "Hay": 75,
+                        "Gem": 20,
+                        "Axe": 5,
+                        "Pickaxe": 5,
+                        "Stone Pickaxe": 5
+                    },
+                    "sfl": 0,
+                    "wearables": {}
+                }
+            }
+        },
+        "treasureIsland": {
+            "holes": {}
+        },
+        "dailyRewards": {
+            "streaks": 20,
+            "chest": {
+                "collectedAt": 1745713406352,
+                "code": 17
+            }
+        },
+        "seed": "Lk/DsDMflNyDkvhYMTa1cNigrdG8wosefNzFUkFsLJjl2cKfVZ0OuKJ5PJek6oRoyKQiY7JqAvt+QzDUr1yuGTpIpkvEjdUM4WWwiflYLRi+hD23Nat4Dbj1keUc0ra0g9ei8cf2ZNbzzny+rY/5tjNrAPHiD1w1/X3o8gScg27ExzXhBkc41ksZ9Cshcm4wAqBE7lPvsyhJSYsifiMVWKtv+B97dW3iqUHauLUS1yTic+dwFC/4dksBWi5o6kycowdOmOd3E20rglkvzT2F135IPAVo6jmQaObsR8CB6S7xSfFeKmw6afn+iaIqr5E3STKBypwDFwpZIqfuAYDsjztViYoB7u/DzrAwJbQetpOQhACNX5KZK/Hi1RXYhJup8wjfYAdMnTO9lk8VzqCB+aeXHnAHoNBc8choi1WiN8cscO1kovWzLzOVaFpSPSxKA97AcHzW2BX+RMX0hPHNu3DeT37TZ/Y7A70qJ/f3ADawLhrAjhnaO4Ec8J8EpFQ4lBbgfTY4P/ndOIHEa+3BHEHX9Fn5u/EXofEEJ7uTJ8LIE9IAh2qx2kYzl0zx2184GVfJa8HFBuswZfveozZ5SrHrOZqwlaXfT2Wu7YazoT7Ste27w0e1UbfRTQQicci0ht8ldb0Ms2G7fp+LNLSN+6B2RW7X0YLcLtZZ6nEprjI25O4PKnwOLTpTmRumv/MMFmDEahclxDjeVsCfpH/mOiHbcKC/4VBhdwX/yQu/5uua04OxEJ7TyOBfrcQDWdk1LJD7bPyr0xuz9gauFlhongsT6Dqktgi94LHjpCi/XLH2xbSUVKK7GQbBJiLHS8JykUQf/3BKV8EQOlcs5NaYI4l8gVi3+k7TK9DEBw/TzaFdaLi1sduqm1gpLB+u3xPQHn89PjT+zJn966lV0WFxGzRzIf37cA3cQKBHJvOialBlYgXakPY8RVXPNq5p44TLSI5mEfjo4Ar/SgY8wxJSdrPwic20FeoT1XITNGtKtmYKSlKxrydsRxxRAMCvHwOHEdVZXZ6DmUlY9TD7Bg5OgkAqfEZDDNqi78FMQz4If2OyXTrzDjLKY2nYsTwyj7WYDHCBqnic1+k/rrfe/9KvE36xdqvakw9pXp/rpAOmX2XtWR9uhIpquqQ48juio4FNHYaqbHx9bRF0DpTz7WPBrr46n+fbTzhLpFu0eqyhuWeAtS5MHyr8j5iS2NOPEPu/mvOAuN2eHJP0UzLyNYuNbAWXwtTA/Hz3/JqXYKKWJeVOY5sSFozjxjhevhItLphUQUzpMc0GnxgBE7sawNQOPSn026MAE6uw7chHxjYK3jiNgvwZv7HK0qNoizZSkHjy1hhhtwM0zCCRnqmiVVR9IWI/KAQNvvOlwyyVqraQN5DTYIvpSluUhJ8L8sFUHO1J8rQU+dfpMUFVEenVKJMM4ahp0GHh9S417KICpYLIMIVSVx7cKo20ocQUDtfVDOlMCrpodWINJPF4hqf8Dxnn5E6Q5bo=",
+        "farmActivity": {
+            "Crab Caught": 2,
+            "Olive Flounder Caught": 1,
+            "Porgy Caught": 2,
+            "Anchovy Caught": 19,
+            "Halibut Caught": 1,
+            "Sea Bass Caught": 1,
+            "Yellow Pansy Harvested": 2,
+            "Yellow Cosmos Harvested": 1,
+            "Blue Cosmos Harvested": 3,
+            "Blue Cosmos Bountied": 1,
+            "Purple Cosmos Harvested": 3,
+            "Red Pansy Harvested": 2
+        },
+        "milestones": {},
+        "fishing": {
+            "wharf": {
+                "bait": "Earthworm"
+            },
+            "beach": {},
+            "dailyAttempts": {
+                "2025-04-24": 3
+            },
+            "extraReels": {
+                "timesBought": {},
+                "count": 0
+            }
+        },
+        "chores": {
+            "choresCompleted": 0,
+            "choresSkipped": 0,
+            "chores": {
+                "1": {
+                    "activity": "Bumpkin Broth Fed",
+                    "requirement": 6,
+                    "description": "Eat 6 Bumpkin Broth",
+                    "createdAt": 1743832564048,
+                    "bumpkinId": 3349809990567285,
+                    "startCount": 0
+                },
+                "2": {
+                    "activity": "Rod Casted",
+                    "requirement": 5,
+                    "description": "Fish 5 Times",
+                    "createdAt": 1743832564048,
+                    "bumpkinId": 3349809990567285,
+                    "startCount": 0
+                },
+                "3": {
+                    "activity": "Cabbage Harvested",
+                    "requirement": 80,
+                    "description": "Harvest 80 Cabbage",
+                    "createdAt": 1743832564048,
+                    "bumpkinId": 3349809990567285,
+                    "startCount": 0
+                },
+                "4": {
+                    "activity": "Iron Pickaxe Crafted",
+                    "requirement": 2,
+                    "description": "Craft 2 Iron Pickaxe",
+                    "createdAt": 1743832564048,
+                    "bumpkinId": 3349809990567285,
+                    "startCount": 0
+                },
+                "5": {
+                    "activity": "Stone Mined",
+                    "requirement": 50,
+                    "description": "Mine 50 Stones",
+                    "createdAt": 1743832564048,
+                    "bumpkinId": 3349809990567285,
+                    "startCount": 0
+                }
+            }
+        },
+        "kingdomChores": {
+            "chores": [],
+            "choresCompleted": 0,
+            "choresSkipped": 0
+        },
+        "conversations": [
+            "hank-intro"
+        ],
+        "mailbox": {
+            "read": [
+                {
+                    "id": "pwa-install-prompt",
+                    "readAt": 1743834945880
+                },
+                {
+                    "id": "winds-of-change",
+                    "readAt": 1743876113107
+                },
+                {
+                    "id": "love-rush",
+                    "readAt": 1743876117174
+                },
+                {
+                    "id": "love-rush-2",
+                    "readAt": 1744896070288
+                },
+                {
+                    "id": "easter-2025",
+                    "readAt": 1745206597220
+                }
+            ]
+        },
+        "mushrooms": {
+            "spawnedAt": 1745740800000,
+            "magicSpawnedAt": 1745668800000,
+            "mushrooms": {}
+        },
+        "delivery": {
+            "orders": [
+                {
+                    "createdAt": 1745109955839,
+                    "id": "da26e2",
+                    "from": "tango",
+                    "items": {
+                        "Banana": 3
+                    },
+                    "readyAt": 1745109955839,
+                    "reward": {
+                        "coins": 171,
+                        "items": {}
+                    }
+                },
+                {
+                    "createdAt": 1745280448408,
+                    "readyAt": 1745280448408,
+                    "from": "finn",
+                    "id": "7dfb8d",
+                    "items": {
+                        "Leather": 6
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745280453832,
+                    "readyAt": 1745280453832,
+                    "from": "bert",
+                    "id": "c8dda6",
+                    "items": {
+                        "Stone": 25,
+                        "Axe": 5
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745280458633,
+                    "readyAt": 1745280458633,
+                    "from": "raven",
+                    "id": "e1a5d3",
+                    "items": {
+                        "Rice Bun": 2
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745280462001,
+                    "readyAt": 1745280462001,
+                    "from": "finley",
+                    "id": "5bd2a4",
+                    "items": {
+                        "Rod": 5,
+                        "Barley": 10
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745280465727,
+                    "readyAt": 1745280465727,
+                    "from": "miranda",
+                    "id": "7b7db1",
+                    "items": {
+                        "Yellow Pansy": 2,
+                        "Cushion": 1
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745280468509,
+                    "readyAt": 1745280468509,
+                    "from": "pharaoh",
+                    "id": "432b46",
+                    "items": {
+                        "Sand Drill": 2,
+                        "Sand": 20
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745374032120,
+                    "id": "554618",
+                    "from": "old salty",
+                    "items": {
+                        "Sand": 12
+                    },
+                    "readyAt": 1745374032120,
+                    "reward": {
+                        "coins": 260,
+                        "items": {}
+                    }
+                },
+                {
+                    "createdAt": 1745374038693,
+                    "id": "ffa817",
+                    "from": "corale",
+                    "items": {
+                        "Red Snapper": 4
+                    },
+                    "readyAt": 1745374038693,
+                    "reward": {
+                        "coins": 736,
+                        "items": {}
+                    }
+                },
+                {
+                    "createdAt": 1745417343851,
+                    "readyAt": 1745417343851,
+                    "from": "cornwell",
+                    "id": "20965c",
+                    "items": {
+                        "Egg": 40,
+                        "Wheat": 30
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745548558635,
+                    "id": "647411",
+                    "from": "peggy",
+                    "items": {
+                        "Apple Juice": 2
+                    },
+                    "readyAt": 1745548558635,
+                    "reward": {
+                        "coins": 450,
+                        "items": {}
+                    }
+                },
+                {
+                    "createdAt": 1745712866203,
+                    "id": "4ff5dc",
+                    "from": "betty",
+                    "items": {
+                        "Potato": 225
+                    },
+                    "readyAt": 1745712866203,
+                    "reward": {
+                        "coins": 268,
+                        "items": {}
+                    },
+                    "completedAt": 1745713345360
+                },
+                {
+                    "createdAt": 1745712866203,
+                    "id": "8faa8b",
+                    "from": "blacksmith",
+                    "items": {
+                        "Wood": 15
+                    },
+                    "readyAt": 1745712866203,
+                    "reward": {
+                        "coins": 486,
+                        "items": {}
+                    },
+                    "completedAt": 1745713338397
+                },
+                {
+                    "createdAt": 1745712866203,
+                    "readyAt": 1745712866203,
+                    "from": "pumpkin' pete",
+                    "id": "206da4",
+                    "items": {
+                        "Carrot": 10,
+                        "Potato": 10
+                    },
+                    "reward": {},
+                    "completedAt": 1745724571503
+                },
+                {
+                    "createdAt": 1745713174130,
+                    "id": "e09497",
+                    "from": "grimbly",
+                    "items": {
+                        "Pumpkin Soup": 5
+                    },
+                    "readyAt": 1745713174130,
+                    "reward": {
+                        "sfl": 0.4
+                    },
+                    "completedAt": 1745724245254
+                },
+                {
+                    "createdAt": 1745713178072,
+                    "id": "f40ada",
+                    "from": "grimtooth",
+                    "items": {
+                        "Sea Bass": 2
+                    },
+                    "readyAt": 1745713178072,
+                    "reward": {
+                        "sfl": 0.4
+                    }
+                },
+                {
+                    "createdAt": 1745713181786,
+                    "id": "8f4d8e",
+                    "from": "grubnuk",
+                    "items": {
+                        "Kale Stew": 4
+                    },
+                    "readyAt": 1745713181786,
+                    "reward": {
+                        "sfl": 0.55
+                    }
+                },
+                {
+                    "createdAt": 1745713425304,
+                    "readyAt": 1745713425304,
+                    "from": "timmy",
+                    "id": "95262d",
+                    "items": {
+                        "Lemon": 15,
+                        "Apple Juice": 3
+                    },
+                    "reward": {}
+                }
+            ],
+            "fulfilledCount": 116,
+            "milestone": {
+                "goal": 10,
+                "total": 10
+            },
+            "doubleDelivery": "2025-05-01",
+            "dailySFL": {
+                "day": 117,
+                "amount": 4.353110393880905
+            }
+        },
+        "catchTheKraken": {
+            "weeklyCatches": {},
+            "hunger": "Potato"
+        },
+        "npcs": {
+            "blacksmith": {
+                "deliveryCount": 25,
+                "friendship": {
+                    "updatedAt": 1745713338397,
+                    "points": 75,
+                    "giftClaimedAtPoints": 50
+                },
+                "deliveryCompletedAt": 1745713338397,
+                "streaks": {
+                    "streak": 21,
+                    "lastClaimedAt": 1745713338397
+                }
+            },
+            "betty": {
+                "deliveryCount": 29,
+                "friendship": {
+                    "updatedAt": 1745713345360,
+                    "points": 90,
+                    "giftClaimedAtPoints": 40
+                },
+                "deliveryCompletedAt": 1745713345360,
+                "streaks": {
+                    "streak": 21,
+                    "lastClaimedAt": 1745713345360
+                },
+                "choreCount": 3
+            },
+            "peggy": {
+                "deliveryCount": 16,
+                "deliveryCompletedAt": 1745215599425,
+                "skippedCount": 9,
+                "streaks": {
+                    "streak": 1,
+                    "lastClaimedAt": 1745215599425
+                },
+                "choreCount": 3,
+                "friendship": {
+                    "points": 3,
+                    "updatedAt": 1745290229339
+                }
+            },
+            "garth": {
+                "deliveryCount": 0,
+                "friendship": {
+                    "points": 3,
+                    "updatedAt": 1744695980993
+                },
+                "choreCount": 3
+            },
+            "pumpkin' pete": {
+                "deliveryCount": 23,
+                "friendship": {
+                    "updatedAt": 1745724571503,
+                    "points": 71,
+                    "giftClaimedAtPoints": 50
+                },
+                "deliveryCompletedAt": 1745724571503,
+                "streaks": {
+                    "streak": 21,
+                    "lastClaimedAt": 1745724571503
+                },
+                "choreCount": 2
+            },
+            "corale": {
+                "deliveryCount": 6,
+                "skippedCount": 10,
+                "deliveryCompletedAt": 1744849987670,
+                "friendship": {
+                    "updatedAt": 1744849987670,
+                    "points": 18,
+                    "giftClaimedAtPoints": 0
+                },
+                "streaks": {
+                    "streak": 1,
+                    "lastClaimedAt": 1744849987670
+                }
+            },
+            "bert": {
+                "deliveryCount": 0,
+                "skippedCount": 12,
+                "choreCount": 1,
+                "friendship": {
+                    "points": 1,
+                    "updatedAt": 1744382412754
+                }
+            },
+            "grimbly": {
+                "deliveryCount": 9,
+                "skippedCount": 9,
+                "deliveryCompletedAt": 1745724245254,
+                "streaks": {
+                    "streak": 1,
+                    "lastClaimedAt": 1745724245254
+                }
+            },
+            "grimtooth": {
+                "deliveryCount": 3,
+                "skippedCount": 12,
+                "deliveryCompletedAt": 1745419029503,
+                "streaks": {
+                    "streak": 2,
+                    "lastClaimedAt": 1745419029503
+                }
+            },
+            "raven": {
+                "deliveryCount": 0,
+                "skippedCount": 9
+            },
+            "finley": {
+                "deliveryCount": 0,
+                "skippedCount": 9
+            },
+            "tango": {
+                "deliveryCount": 1,
+                "streaks": {
+                    "streak": 1,
+                    "lastClaimedAt": 1744740966589
+                },
+                "deliveryCompletedAt": 1744740966589,
+                "skippedCount": 5
+            },
+            "old salty": {
+                "deliveryCount": 1,
+                "skippedCount": 5,
+                "deliveryCompletedAt": 1745117896667,
+                "friendship": {
+                    "updatedAt": 1745117896667,
+                    "points": 3,
+                    "giftClaimedAtPoints": 0
+                },
+                "streaks": {
+                    "streak": 1,
+                    "lastClaimedAt": 1745117896667
+                }
+            },
+            "miranda": {
+                "deliveryCount": 0,
+                "skippedCount": 5
+            },
+            "finn": {
+                "deliveryCount": 0,
+                "skippedCount": 4
+            },
+            "grubnuk": {
+                "deliveryCount": 3,
+                "skippedCount": 7,
+                "deliveryCompletedAt": 1745453817842,
+                "streaks": {
+                    "streak": 1,
+                    "lastClaimedAt": 1745453817842
+                }
+            },
+            "pharaoh": {
+                "deliveryCount": 0,
+                "skippedCount": 4
+            }
+        },
+        "islands": {},
+        "portals": {},
+        "buds": {},
+        "minigames": {
+            "games": {
+                "easter-eggstravaganza": {
+                    "history": {
+                        "2025-04-21": {
+                            "attempts": 3,
+                            "highscore": 65,
+                            "prizeClaimedAt": 1745215184509
+                        },
+                        "2025-04-22": {
+                            "attempts": 1,
+                            "highscore": 65,
+                            "prizeClaimedAt": 1745292859544
+                        },
+                        "2025-04-23": {
+                            "attempts": 3,
+                            "highscore": 67,
+                            "prizeClaimedAt": 1745448029943
+                        },
+                        "2025-04-24": {
+                            "attempts": 3,
+                            "highscore": 73,
+                            "prizeClaimedAt": 1745518178671
+                        },
+                        "2025-04-26": {
+                            "attempts": 3,
+                            "highscore": 65,
+                            "prizeClaimedAt": 1745674336473
+                        }
+                    },
+                    "highscore": 65,
+                    "shop": {
+                        "items": {
+                            "Treasure Key": 1
+                        },
+                        "wearables": {}
+                    }
+                }
+            },
+            "prizes": {
+                "easter-eggstravaganza": {
+                    "coins": 0,
+                    "items": {
+                        "Easter Token 2025": 50
+                    },
+                    "wearables": {},
+                    "score": 65,
+                    "startAt": 1745712000000,
+                    "endAt": 1745798400000
+                },
+                "chicken-rescue": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 30
+                    },
+                    "wearables": {},
+                    "score": 35,
+                    "startAt": 1745712000000,
+                    "endAt": 1745798400000
+                },
+                "crops-and-chickens": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 20
+                    },
+                    "wearables": {},
+                    "score": 500,
+                    "startAt": 1745712000000,
+                    "endAt": 1745798400000
+                },
+                "halloween": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 50
+                    },
+                    "wearables": {},
+                    "score": 135000,
+                    "startAt": 1745712000000,
+                    "endAt": 1745798400000
+                },
+                "fruit-dash": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 25
+                    },
+                    "wearables": {},
+                    "score": 1250,
+                    "startAt": 1745712000000,
+                    "endAt": 1745798400000
+                }
+            }
+        },
+        "fulfilled": [
+            288997016,
+            288997389
+        ],
+        "username": "Darlan",
+        "settings": {
+            "timezone": "America/Sao_Paulo",
+            "username": {
+                "setAt": 1743832793398
+            },
+            "network": "Polygon"
+        },
+        "flowerShop": {
+            "week": 1745193600000,
+            "weeklyFlower": "Red Cosmos"
+        },
+        "specialEvents": {
+            "history": {},
+            "current": {}
+        },
+        "goblinMarket": {
+            "resources": {}
+        },
+        "desert": {
+            "digging": {
+                "grid": [],
+                "patterns": [
+                    "ARTEFACT_SEVENTEEN",
+                    "ARTEFACT_FOURTEEN",
+                    "ARTEFACT_TWENTY_ONE",
+                    "HIEROGLYPH",
+                    "HIEROGLYPH",
+                    "COCKLE",
+                    "OLD_BOTTLE",
+                    "CLAM_SHELLS"
+                ]
+            }
+        },
+        "henHouse": {
+            "level": 1,
+            "animals": {
+                "0": {
+                    "id": "0",
+                    "type": "Chicken",
+                    "state": "idle",
+                    "asleepAt": 0,
+                    "experience": 40,
+                    "createdAt": 1743832562077,
+                    "item": "Petting Hand",
+                    "lovedAt": 0,
+                    "awakeAt": 0
+                },
+                "1": {
+                    "id": "1",
+                    "type": "Chicken",
+                    "state": "idle",
+                    "asleepAt": 0,
+                    "experience": 40,
+                    "createdAt": 1743832562077,
+                    "item": "Petting Hand",
+                    "lovedAt": 0,
+                    "awakeAt": 0
+                },
+                "2": {
+                    "id": "2",
+                    "type": "Chicken",
+                    "state": "idle",
+                    "asleepAt": 0,
+                    "experience": 40,
+                    "createdAt": 1743832562077,
+                    "item": "Petting Hand",
+                    "lovedAt": 0,
+                    "awakeAt": 0
+                }
+            }
+        },
+        "barn": {
+            "level": 1,
+            "animals": {
+                "0": {
+                    "id": "0",
+                    "type": "Cow",
+                    "state": "idle",
+                    "asleepAt": 0,
+                    "experience": 80,
+                    "createdAt": 1743832562077,
+                    "item": "Petting Hand",
+                    "lovedAt": 0,
+                    "awakeAt": 0
+                },
+                "1": {
+                    "id": "1",
+                    "type": "Cow",
+                    "state": "idle",
+                    "asleepAt": 0,
+                    "experience": 80,
+                    "createdAt": 1743832562077,
+                    "item": "Petting Hand",
+                    "lovedAt": 0,
+                    "awakeAt": 0
+                },
+                "2": {
+                    "id": "2",
+                    "type": "Cow",
+                    "state": "idle",
+                    "asleepAt": 0,
+                    "experience": 80,
+                    "createdAt": 1743832562077,
+                    "item": "Petting Hand",
+                    "lovedAt": 0,
+                    "awakeAt": 0
+                }
+            }
+        },
+        "waterWell": {
+            "level": 3,
+            "upgradeReadyAt": 1744922927933,
+            "upgradedAt": 1744915727933
+        },
+        "bounties": {
+            "requests": [
+                {
+                    "level": 7,
+                    "id": "1bee49",
+                    "name": "Chicken",
+                    "coins": 180
+                },
+                {
+                    "level": 8,
+                    "id": "0004f3",
+                    "name": "Chicken",
+                    "coins": 220
+                },
+                {
+                    "level": 3,
+                    "id": "b7f2e7",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 6,
+                    "id": "d99456",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 4,
+                    "id": "06627a",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 6,
+                    "id": "f68f76",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 6,
+                    "id": "23d5d9",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 2,
+                    "id": "031183",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 7,
+                    "id": "4c56dd",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 7,
+                    "id": "1215a2",
+                    "name": "Chicken",
+                    "items": {
+                        "Timeshard": 3
+                    }
+                },
+                {
+                    "level": 7,
+                    "id": "c864b7",
+                    "name": "Cow",
+                    "coins": 1810
+                },
+                {
+                    "level": 3,
+                    "id": "420e6d",
+                    "name": "Cow",
+                    "items": {
+                        "Timeshard": 2
+                    }
+                },
+                {
+                    "level": 7,
+                    "id": "79b114",
+                    "name": "Cow",
+                    "items": {
+                        "Timeshard": 5
+                    }
+                },
+                {
+                    "level": 4,
+                    "id": "1d367b",
+                    "name": "Cow",
+                    "items": {
+                        "Timeshard": 2
+                    }
+                },
+                {
+                    "level": 6,
+                    "id": "fac410",
+                    "name": "Cow",
+                    "items": {
+                        "Timeshard": 4
+                    }
+                },
+                {
+                    "level": 9,
+                    "id": "f41dd0",
+                    "name": "Sheep",
+                    "coins": 1300
+                },
+                {
+                    "level": 7,
+                    "id": "5cc3e6",
+                    "name": "Sheep",
+                    "items": {
+                        "Timeshard": 5
+                    }
+                },
+                {
+                    "level": 3,
+                    "id": "7ef780",
+                    "name": "Sheep",
+                    "items": {
+                        "Timeshard": 2
+                    }
+                },
+                {
+                    "level": 6,
+                    "id": "00792d",
+                    "name": "Sheep",
+                    "items": {
+                        "Timeshard": 4
+                    }
+                },
+                {
+                    "level": 3,
+                    "id": "15bf58",
+                    "name": "Sheep",
+                    "items": {
+                        "Timeshard": 2
+                    }
+                },
+                {
+                    "id": "e50ac6",
+                    "name": "Yellow Lotus",
+                    "items": {
+                        "Timeshard": 7
+                    }
+                },
+                {
+                    "id": "eba13d",
+                    "name": "White Carnation",
+                    "items": {
+                        "Timeshard": 7
+                    }
+                },
+                {
+                    "id": "d14cf7",
+                    "name": "White Daffodil",
+                    "items": {
+                        "Timeshard": 5
+                    }
+                },
+                {
+                    "id": "0009e0",
+                    "name": "Obsidian",
+                    "sfl": 45
+                },
+                {
+                    "id": "6aa1a4",
+                    "name": "Obsidian",
+                    "sfl": 35
+                },
+                {
+                    "id": "6a617a",
+                    "name": "Obsidian",
+                    "sfl": 30
+                }
+            ],
+            "completed": []
+        },
+        "craftingBox": {
+            "status": "idle",
+            "startedAt": 0,
+            "readyAt": 0,
+            "recipes": {}
+        },
+        "season": {
+            "startedAt": 1745193600000,
+            "season": "autumn"
+        },
+        "lavaPits": {},
+        "socialTasks": {
+            "completed": {
+                "Complete 50 deliveries": {
+                    "completedAt": 1744510525853
+                },
+                "Upgrade to Petal Paradise": {
+                    "completedAt": 1744829421960
+                }
+            }
+        },
+        "referrals": {
+            "totalReferrals": 2
+        },
+        "telegram": {
+            "linkedAt": 1744027326616,
+            "startedAt": 1744027336642,
+            "joinedAt": 1744027343034,
+            "welcomePrize": {
+                "openedAt": 1744027346246
+            },
+            "quest": {
+                "startAt": 1745866633098,
+                "name": "beach-banter",
+                "choices": []
+            }
+        },
+        "twitter": {
+            "linkedAt": 1744145760086,
+            "isAuthorised": true,
+            "followedAt": 1744145770915,
+            "verifiedPostsAt": 1745726827335,
+            "tweets": {
+                "FARM": {
+                    "completedAt": 1745724535114,
+                    "tweetIds": [
+                        "1910328748873761227",
+                        "1916333443807400129"
+                    ]
+                },
+                "WEEKLY": {
+                    "completedAt": 1745726827335,
+                    "tweetIds": [
+                        "1910329740205977756",
+                        "1916333621201215931"
+                    ]
+                }
+            }
+        },
+        "discord": {
+            "connected": true
+        },
+        "ban": {
+            "status": "ok",
+            "isSocialVerified": false
+        },
+        "verified": true
+    },
+    "isBlacklisted": false
+}
