@@ -69,7 +69,7 @@
             "Beetroot": "211.4",
             "Zucchini Seed": "33",
             "Banana": "9",
-            "Beetroot Seed": "74",
+            "Beetroot Seed": "37",
             "Cauliflower Seed": "278",
             "Egg": "10",
             "Eggplant Seed": "4",
@@ -95,7 +95,7 @@
             "Magic Mushroom": "3",
             "Purple Cosmos": "3",
             "Fried Tofu": "2",
-            "Cabbage": "139.6",
+            "Cabbage": "209.9",
             "Wheat Seed": "2",
             "Yellow Pansy": "1",
             "Parsnip Seed": "83",
@@ -436,7 +436,7 @@
                 "Cabbage Seed Bought": 680,
                 "Fried Tofu Cooked": 75,
                 "Fried Tofu Fed": 73,
-                "Cabbage Harvested": 408,
+                "Cabbage Harvested": 445,
                 "Bumpkin Broth Cooked": 19,
                 "Bumpkin Broth Fed": 19,
                 "Iron Mined": 10,
@@ -491,7 +491,7 @@
                 "Yellow Pansy Harvested": 2,
                 "Scary Mike Crafted": 1,
                 "Beetroot Seed Bought": 380,
-                "Beetroot Planted": 346,
+                "Beetroot Planted": 383,
                 "Beetroot Harvested": 346,
                 "Sunflower Cake Fed": 1,
                 "Yellow Cosmos Harvested": 1,
@@ -782,9 +782,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "e343ff08",
-                    "plantedAt": 1745875332503,
-                    "name": "Cabbage",
+                    "id": "fa864e55",
+                    "plantedAt": 1745880540776,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -795,9 +795,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "35d7282f",
-                    "plantedAt": 1745875333765,
-                    "name": "Cabbage",
+                    "id": "8322e16a",
+                    "plantedAt": 1745880540635,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -808,9 +808,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "042bd2f6",
-                    "plantedAt": 1745875332690,
-                    "name": "Cabbage",
+                    "id": "5582e069",
+                    "plantedAt": 1745880540450,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -821,9 +821,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "b1242484",
-                    "plantedAt": 1745875332338,
-                    "name": "Cabbage",
+                    "id": "1dc5439b",
+                    "plantedAt": 1745880541858,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -834,9 +834,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "e362c1de",
-                    "plantedAt": 1745875334901,
-                    "name": "Cabbage",
+                    "id": "6fea9618",
+                    "plantedAt": 1745880539034,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -847,9 +847,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "dc6bfdcd",
-                    "plantedAt": 1745875330737,
-                    "name": "Cabbage",
+                    "id": "e627b98a",
+                    "plantedAt": 1745880542243,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -860,9 +860,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "6235d2ec",
-                    "plantedAt": 1745875330927,
-                    "name": "Cabbage",
+                    "id": "60f046b7",
+                    "plantedAt": 1745880542411,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -873,9 +873,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "d35130fd",
-                    "plantedAt": 1745875331089,
-                    "name": "Cabbage",
+                    "id": "43e09b78",
+                    "plantedAt": 1745880542568,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -886,9 +886,9 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "272f72b2",
-                    "plantedAt": 1745875331287,
-                    "name": "Cabbage",
+                    "id": "5cf14831",
+                    "plantedAt": 1745880542754,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -899,9 +899,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "7ac2f3ae",
-                    "plantedAt": 1745875331458,
-                    "name": "Cabbage",
+                    "id": "adc013b7",
+                    "plantedAt": 1745880542904,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -912,9 +912,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "23800c45",
-                    "plantedAt": 1745875333070,
-                    "name": "Cabbage",
+                    "id": "838b2841",
+                    "plantedAt": 1745880540288,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -925,9 +925,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "186247ba",
-                    "plantedAt": 1745875334687,
-                    "name": "Cabbage",
+                    "id": "d4b7664e",
+                    "plantedAt": 1745880538864,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -938,9 +938,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "d4b94241",
-                    "plantedAt": 1745875331658,
-                    "name": "Cabbage",
+                    "id": "d0041016",
+                    "plantedAt": 1745880543074,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -951,9 +951,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "2082fb1d",
-                    "plantedAt": 1745875333263,
-                    "name": "Cabbage",
+                    "id": "221178da",
+                    "plantedAt": 1745880539929,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -964,9 +964,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "7801e6bc",
-                    "plantedAt": 1745875334509,
-                    "name": "Cabbage",
+                    "id": "8e1fd690",
+                    "plantedAt": 1745880538676,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -977,10 +977,18 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "83ee27f6",
-                    "plantedAt": 1745875325456,
-                    "name": "Cabbage",
-                    "amount": 1.9
+                    "id": "a211d86c",
+                    "plantedAt": 1745880548242,
+                    "name": "Beetroot",
+                    "amount": 1.9,
+                    "reward": {
+                        "items": [
+                            {
+                                "amount": 3,
+                                "name": "Beetroot Seed"
+                            }
+                        ]
+                    }
                 }
             },
             "17": {
@@ -990,9 +998,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "4236e8c5",
-                    "plantedAt": 1745875327292,
-                    "name": "Cabbage",
+                    "id": "c95c7558",
+                    "plantedAt": 1745880545324,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1003,9 +1011,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "12885713",
-                    "plantedAt": 1745875328876,
-                    "name": "Cabbage",
+                    "id": "f8d544ae",
+                    "plantedAt": 1745880545005,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1016,9 +1024,9 @@
                 "x": 2,
                 "y": 4,
                 "crop": {
-                    "id": "904fb295",
-                    "plantedAt": 1745875326128,
-                    "name": "Cabbage",
+                    "id": "91daec00",
+                    "plantedAt": 1745880547282,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1029,9 +1037,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "c2588cd2",
-                    "plantedAt": 1745875329054,
-                    "name": "Cabbage",
+                    "id": "5baadd4e",
+                    "plantedAt": 1745880544181,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1042,9 +1050,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "9473ce42",
-                    "plantedAt": 1745875328507,
-                    "name": "Cabbage",
+                    "id": "81c6342d",
+                    "plantedAt": 1745880545837,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1055,9 +1063,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "a96a4d1f",
-                    "plantedAt": 1745875329389,
-                    "name": "Cabbage",
+                    "id": "1b739663",
+                    "plantedAt": 1745880543847,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1068,10 +1076,18 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "221a1eb9",
-                    "plantedAt": 1745875327825,
-                    "name": "Cabbage",
-                    "amount": 1.9
+                    "id": "6d840dfe",
+                    "plantedAt": 1745880547023,
+                    "name": "Beetroot",
+                    "amount": 1.9,
+                    "reward": {
+                        "items": [
+                            {
+                                "amount": 2,
+                                "name": "Beetroot Seed"
+                            }
+                        ]
+                    }
                 }
             },
             "37d9bf6f": {
@@ -1081,9 +1097,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "94e50bb9",
-                    "plantedAt": 1745875327475,
-                    "name": "Cabbage",
+                    "id": "56544b45",
+                    "plantedAt": 1745880545694,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1094,9 +1110,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "cf01eaf0",
-                    "plantedAt": 1745875327655,
-                    "name": "Cabbage",
+                    "id": "7896490e",
+                    "plantedAt": 1745880546029,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1107,9 +1123,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "56c18445",
-                    "plantedAt": 1745875334312,
-                    "name": "Cabbage",
+                    "id": "f2576fda",
+                    "plantedAt": 1745880538501,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1120,9 +1136,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "49e23869",
-                    "plantedAt": 1745875329745,
-                    "name": "Cabbage",
+                    "id": "397a85dc",
+                    "plantedAt": 1745880543496,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1133,9 +1149,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "f3ebaa4f",
-                    "plantedAt": 1745875326677,
-                    "name": "Cabbage",
+                    "id": "bab06321",
+                    "plantedAt": 1745880547776,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1146,9 +1162,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "0b9ccade",
-                    "plantedAt": 1745875330388,
-                    "name": "Cabbage",
+                    "id": "ec83c8ec",
+                    "plantedAt": 1745880543642,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1159,9 +1175,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "c14d13d3",
-                    "plantedAt": 1745875329226,
-                    "name": "Cabbage",
+                    "id": "63287c96",
+                    "plantedAt": 1745880544000,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1172,9 +1188,9 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "7ef83702",
-                    "plantedAt": 1745875334159,
-                    "name": "Cabbage",
+                    "id": "8b10b854",
+                    "plantedAt": 1745880538285,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1185,10 +1201,18 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "b8cbe32b",
-                    "plantedAt": 1745875328003,
-                    "name": "Cabbage",
-                    "amount": 1.9
+                    "id": "110ce1b1",
+                    "plantedAt": 1745880546209,
+                    "name": "Beetroot",
+                    "amount": 1.9,
+                    "reward": {
+                        "items": [
+                            {
+                                "amount": 3,
+                                "name": "Beetroot Seed"
+                            }
+                        ]
+                    }
                 }
             },
             "2e3bd685": {
@@ -1198,9 +1222,9 @@
                 "x": -2,
                 "y": 4,
                 "crop": {
-                    "id": "7a6ad229",
-                    "plantedAt": 1745875325618,
-                    "name": "Cabbage",
+                    "id": "52b799dc",
+                    "plantedAt": 1745880548091,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1211,9 +1235,9 @@
                 "x": 0,
                 "y": 4,
                 "crop": {
-                    "id": "a01c2b0a",
-                    "plantedAt": 1745875325795,
-                    "name": "Cabbage",
+                    "id": "23510459",
+                    "plantedAt": 1745880547628,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1224,9 +1248,9 @@
                 "x": 1,
                 "y": 4,
                 "crop": {
-                    "id": "1267a6f6",
-                    "plantedAt": 1745875325959,
-                    "name": "Cabbage",
+                    "id": "a164a8b7",
+                    "plantedAt": 1745880547445,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1237,9 +1261,9 @@
                 "x": -3,
                 "y": -2,
                 "crop": {
-                    "id": "d8e6d38a",
-                    "plantedAt": 1745875335692,
-                    "name": "Cabbage",
+                    "id": "a5a79b03",
+                    "plantedAt": 1745880537852,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             },
@@ -1250,9 +1274,9 @@
                 "x": 2,
                 "y": -1,
                 "crop": {
-                    "id": "a1339440",
-                    "plantedAt": 1745875335066,
-                    "name": "Cabbage",
+                    "id": "77538c96",
+                    "plantedAt": 1745880539644,
+                    "name": "Beetroot",
                     "amount": 1.9
                 }
             }

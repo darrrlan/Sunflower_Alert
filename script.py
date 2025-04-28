@@ -11,6 +11,8 @@ from colorama import init, Fore
 # Inicializar colorama
 init(autoreset=True)
 
+cont = 0
+
 url = "https://api.sunflower-land.com/visit/3349809990567285"
 
 tempos_crescimento_minutos = {
@@ -191,18 +193,21 @@ while True:
                 emoji = get_emoji_for_plant(nome)
 
                 if tempo_faltando > 0:
+                    cont += 1
                     horas = int(tempo_faltando // 3600)
                     minutos = int((tempo_faltando % 3600) // 60)
                     status = f"{horas}h {minutos}min restantes"
                     cor = Fore.YELLOW
+                    #print(len(lista_itens), cont)
+                    if(len(lista_itens) == cont):
+                        cont = 0
+                        notificadas.clear()
+                        save_notified(notificadas)
+                    
                 else:
+                    cont -= 1
                     status = "🌟 Pronto para colher!"
                     cor = Fore.GREEN
-
-                    # Limpar notificações antigas se o item foi colhido
-                    if nome in notificadas:
-                        notificadas.remove(nome)
-                        save_notified(notificadas)
 
                     # Enviar nova notificação
                     if nome not in notificadas:
@@ -220,6 +225,7 @@ while True:
 
         time.sleep(10)
         os.system('cls' if os.name == 'nt' else 'clear')
+        cont = 0
 
     except Exception as e:
         print(f"Erro durante a execução: {e}")
