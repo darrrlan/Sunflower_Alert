@@ -11,6 +11,8 @@ from colorama import init, Fore
 # Inicializar colorama
 init(autoreset=True)
 
+cont = 0
+
 url = "https://api.sunflower-land.com/visit/3349809990567285"
 
 tempos_crescimento_minutos = {
@@ -22,6 +24,7 @@ tempos_crescimento_minutos = {
     "Cabbage": 2*60,
     "Soybean": 3*60,
     "Beetroot": 4*60,
+    "Compost Bin": 6*60,
     "Cauliflower": 8*60,
     "Parsnip": 12*60,
     "Eggplant": 16*60,
@@ -63,6 +66,7 @@ def get_emoji_for_plant(nome):
         "Kale": "🥬",
         "Honey": "🍯",
         "Blueberry": "🫐",
+        "Compost Bin": "♻️",
     }
     return emojis.get(nome, "🌷")
 
@@ -93,6 +97,7 @@ while True:
             fruitPatches = data.get('state', {}).get('fruitPatches', {})
             honey = data.get('state', {}).get('beehives', {})
             flowers = data.get('state', {}).get('flowers', {}).get('flowerBeds', {})
+            Compost_bin = data.get('state', {}).get('buildings', {}).get('Compost Bin', {})
 
             lista_itens = []
             agora = datetime.datetime.now(fuso_brasil)
@@ -162,6 +167,21 @@ while True:
                     pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                     tempo_faltando = (pronto_em - agora).total_seconds()
                     lista_itens.append(("Flower", plantado_em, pronto_em, tempo_faltando))
+                    
+            # Processar compost bin
+            for Compost_bin_info in Compost_bin: 
+                Compost_bin_data = Compost_bin_info.get('producing', {})
+                nome = "Compost Bin"
+                planted_at = Compost_bin_data.get('startedAt')
+
+                if nome and planted_at and nome not in processados: 
+                    processados.add(nome)
+                    plantado_em = ms_to_datetime_local(planted_at)
+                    tempo_crescimento = tempos_crescimento_minutos.get("Compost Bin")
+                    
+                    pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
+                    tempo_faltando = (pronto_em - agora).total_seconds()
+                    lista_itens.append(("Compost Bin", plantado_em, pronto_em, tempo_faltando))
 
             lista_itens.sort(key=itemgetter(3))
 
@@ -171,17 +191,22 @@ while True:
                 emoji = get_emoji_for_plant(nome)
 
                 if tempo_faltando > 0: 
+                    cont += 1
                     horas = int(tempo_faltando // 3600)
                     minutos = int((tempo_faltando % 3600) // 60)
                     status = f"{horas}h {minutos}min restantes"
                     cor = Fore.YELLOW
+                    if cont == len(lista_itens): # Compara o tamanho da lista com o contador, se for igual, significa que todos estão em produção
+                        cont = 0
+                        notificadas.clear()
+                        save_notified(notificadas)
                 else: 
                     status = "🌟 Pronto para colher!"
                     cor = Fore.GREEN
                     if nome not in notificadas: 
                         send_push_notification(f"{emoji} {nome} Pronto para Colher!", f"{nome} está pronto para ser colhido!")
                         notificadas.add(nome)
-                        save_notified(notificadas)
+                        save_notified(notificadas)# salvamos o nome da planta que foi notificada, para não notificar novamente.
 
                 print(f"{emoji} {cor}{nome}")
                 print(f"   - Plantado em: {plantado_em.strftime('%d/%m/%Y %H:%M:%S')}")
@@ -192,6 +217,7 @@ while True:
             print(f"Falha ao acessar a API. Status code: {response.status_code}")
 
         time.sleep(10)
+        os.system('cls' if os.name == 'nt' else 'clear')
 
     except Exception as e: 
         print(f"Erro durante a execução: {e}")
