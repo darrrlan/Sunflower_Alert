@@ -1,13 +1,13 @@
 {
     "state": {
-        "coins": 4069.159999999998,
-        "balance": "2.50998",
+        "coins": 3859.959999999998,
+        "balance": "1.38958",
         "previousBalance": "0",
         "inventory": {
             "Sunflower": "49.8",
             "Pumpkin": "1361",
-            "Carrot": "873.0000000000000105",
-            "Soybean": "676.7",
+            "Carrot": "950.7000000000000105",
+            "Soybean": "747",
             "Rhubarb": "5.55",
             "Shovel": "1",
             "Petting Hand": "1",
@@ -15,16 +15,16 @@
             "Lunar Calendar": "1",
             "Basic Scarecrow": "1",
             "Wood": "13.9",
-            "Stone": "2.2",
-            "Wild Mushroom": "23",
+            "Stone": "24.2",
+            "Wild Mushroom": "24",
             "Tree": "13",
             "Stone Rock": "12",
             "Iron Rock": "6",
             "Gold Rock": "4",
             "Crop Plot": "37",
             "Basic Land": "8",
-            "Earthworm": "153",
-            "Sprout Mix": "43",
+            "Earthworm": "156",
+            "Sprout Mix": "16",
             "Hay": "75",
             "Gem": "125",
             "Winds of Change Banner": "1",
@@ -42,15 +42,15 @@
             "Summer Duckling": "1",
             "Autumn Duckling": "1",
             "Winter Duckling": "1",
-            "Soybean Seed": "105",
+            "Soybean Seed": "107",
             "Cabbage Seed": "390",
-            "Love Charm": "2474",
+            "Love Charm": "2539",
             "Crab": "1",
             "Rhubarb Seed": "493",
             "Corn": "0.9",
             "Halibut": "1",
             "Wheat": "241.7",
-            "Potato": "1043.4",
+            "Potato": "758.4",
             "Corn Seed": "4",
             "Trade Point": "4.25",
             "Fruit Patch": "5",
@@ -67,11 +67,10 @@
             "Honey": "16",
             "Scary Mike": "1",
             "Beetroot": "0.5",
-            "Yellow Cosmos": "1",
             "Zucchini Seed": "33",
             "Banana": "9",
-            "Beetroot Seed": "12",
-            "Cauliflower Seed": "118",
+            "Beetroot Seed": "172",
+            "Cauliflower Seed": "278",
             "Egg": "10",
             "Eggplant Seed": "4",
             "Lemon": "10",
@@ -88,20 +87,22 @@
             "Axe": "1",
             "Barley": "119",
             "Barley Seed": "8",
-            "Red Pansy": "2",
+            "Red Pansy": "1",
             "Apple": "30",
             "Broccoli": "451.5",
-            "Carrot Seed": "84",
+            "Carrot Seed": "47",
             "Apple Seed": "9",
             "Banana Plant": "16",
             "Sunpetal Seed": "4",
-            "Magic Mushroom": "2",
+            "Magic Mushroom": "3",
             "Purple Cosmos": "2",
             "Fried Tofu": "2",
             "Cabbage": "2",
             "Wheat Seed": "2",
             "Kale": "5",
-            "Yellow Pansy": "1"
+            "Yellow Pansy": "1",
+            "Parsnip Seed": "83",
+            "Sunflower Cake": "1"
         },
         "previousInventory": {
             "Sunflower": "1342.7",
@@ -160,217 +161,197 @@
         "flower": {},
         "choreBoard": {
             "chores": {
-                "betty": {
-                    "name": "Harvest Yam 30 times",
+                "pumpkin' pete": {
+                    "name": "Harvest Potatoes 130 times",
                     "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
+                        "coins": 100,
+                        "items": {}
                     },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435,
-                    "completedAt": 1745290227489
-                },
-                "grimtooth": {
-                    "name": "Drink 15 Banana Blast",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "peggy": {
-                    "name": "Harvest Carrots 75 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
-                    },
-                    "initialProgress": 929,
-                    "startedAt": 1745195784435,
-                    "completedAt": 1745290229339
+                    "initialProgress": 1537,
+                    "startedAt": 1745800100326
                 },
                 "miranda": {
-                    "name": "Grow Yellow Pansy 2 times",
+                    "name": "Grow Purple Cosmos 2 times",
                     "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
+                        "coins": 100,
+                        "items": {}
                     },
-                    "initialProgress": 1,
-                    "startedAt": 1745195784435
+                    "initialProgress": 3,
+                    "startedAt": 1745800100326
+                },
+                "peggy": {
+                    "name": "Harvest Beetroot 50 times",
+                    "reward": {
+                        "coins": 100,
+                        "items": {}
+                    },
+                    "initialProgress": 235,
+                    "startedAt": 1745800100326
+                },
+                "betty": {
+                    "name": "Harvest Cabbage 100 times",
+                    "reward": {
+                        "coins": 100,
+                        "items": {}
+                    },
+                    "initialProgress": 334,
+                    "startedAt": 1745800100326
                 },
                 "grimbly": {
-                    "name": "Prepare Apple Juice 6 times",
+                    "name": "Prepare Purple Smoothie 6 times",
                     "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
+                        "coins": 100,
+                        "items": {}
                     },
                     "initialProgress": 0,
-                    "startedAt": 1745195784435
+                    "startedAt": 1745800100326
+                },
+                "garth": {
+                    "name": "Chop Trees 10 times",
+                    "reward": {
+                        "coins": 100,
+                        "items": {}
+                    },
+                    "initialProgress": 252,
+                    "startedAt": 1745800100326
                 },
                 "corale": {
-                    "name": "Eat 20 Tunas",
+                    "name": "Eat 10 Tunas",
                     "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
+                        "coins": 100,
+                        "items": {}
                     },
                     "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "pumpkin' pete": {
-                    "name": "Eat 15 Boiled Eggs",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 1
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "gordo": {
-                    "name": "Cook Potato Cake 7 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 2
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "bert": {
-                    "name": "Collect 18 Honey",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 2
-                        }
-                    },
-                    "initialProgress": 4,
-                    "startedAt": 1745195784435
+                    "startedAt": 1745800100326
                 },
                 "finn": {
-                    "name": "Cook Gumbo 30 times",
+                    "name": "Cook Gumbo 20 times",
                     "reward": {
                         "items": {
-                            "Timeshard": 2
+                            "Gem": 10
                         }
                     },
                     "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "raven": {
-                    "name": "Cook Caprese Salad 4 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 2
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "victoria": {
-                    "name": "Grow Red Balloon Flower 4 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 2
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
+                    "startedAt": 1745800100326
                 },
                 "old salty": {
                     "name": "Dig 50 times",
                     "reward": {
-                        "items": {
-                            "Timeshard": 2
-                        }
+                        "coins": 300,
+                        "items": {}
                     },
                     "initialProgress": 0,
-                    "startedAt": 1745195784435
+                    "startedAt": 1745800100326
+                },
+                "raven": {
+                    "name": "Cook Cauliflower Burger 5 times",
+                    "reward": {
+                        "coins": 300,
+                        "items": {}
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745800100326
+                },
+                "timmy": {
+                    "name": "Pick Lemons 200 times",
+                    "reward": {
+                        "coins": 300,
+                        "items": {}
+                    },
+                    "initialProgress": 10,
+                    "startedAt": 1745800100326
+                },
+                "victoria": {
+                    "name": "Grow Red Daffodil 3 times",
+                    "reward": {
+                        "coins": 300,
+                        "items": {}
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745800100326
                 },
                 "birdie": {
-                    "name": "Collect Eggs 60 times",
+                    "name": "Collect Milk 30 times",
                     "reward": {
-                        "items": {
-                            "Timeshard": 2
-                        }
+                        "coins": 300,
+                        "items": {}
                     },
                     "initialProgress": 0,
-                    "startedAt": 1745195784435
+                    "startedAt": 1745800100326
                 },
-                "blacksmith": {
-                    "name": "Craft 40 Gold Pickaxes",
+                "bert": {
+                    "name": "Mine Stones 60 times",
                     "reward": {
-                        "items": {
-                            "Timeshard": 3
-                        }
+                        "coins": 300,
+                        "items": {}
                     },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "pharaoh": {
-                    "name": "Craft 15 Sand Drill",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 3
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "finley": {
-                    "name": "Cook Chowder 21 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 3
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "guria": {
-                    "name": "Grow White Lotus 3 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 3
-                        }
-                    },
-                    "initialProgress": 0,
-                    "startedAt": 1745195784435
-                },
-                "cornwell": {
-                    "name": "Harvest Wheat 250 times",
-                    "reward": {
-                        "items": {
-                            "Timeshard": 3
-                        }
-                    },
-                    "initialProgress": 33,
-                    "startedAt": 1745195784435
+                    "initialProgress": 85,
+                    "startedAt": 1745800100326
                 },
                 "tywin": {
-                    "name": "Spend 32,000 Coins",
+                    "name": "Spend 48,000 Coins",
                     "reward": {
-                        "items": {
-                            "Timeshard": 3
-                        }
+                        "coins": 500,
+                        "items": {}
                     },
-                    "initialProgress": 12057,
-                    "startedAt": 1745195784435
+                    "initialProgress": 19615,
+                    "startedAt": 1745800100326
+                },
+                "guria": {
+                    "name": "Grow White Carnation 3 times",
+                    "reward": {
+                        "coins": 500,
+                        "items": {}
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745800100326
                 },
                 "tango": {
-                    "name": "Cook Antipasto 25 times",
+                    "name": "Cook Steamed Red Rice 25 times",
                     "reward": {
                         "items": {
-                            "Timeshard": 3
+                            "Gem": 20
                         }
                     },
                     "initialProgress": 0,
-                    "startedAt": 1745195784435
+                    "startedAt": 1745800100326
+                },
+                "eldric": {
+                    "name": "Cook Honey Cheddar 7 times",
+                    "reward": {
+                        "coins": 500,
+                        "items": {}
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745800100326
+                },
+                "chase": {
+                    "name": "Collect Milk 60 times",
+                    "reward": {
+                        "coins": 500,
+                        "items": {}
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745800100326
+                },
+                "finley": {
+                    "name": "Cook Fermented Fish 12 times",
+                    "reward": {
+                        "items": {
+                            "Gem": 20
+                        }
+                    },
+                    "initialProgress": 0,
+                    "startedAt": 1745800100326
+                },
+                "blacksmith": {
+                    "name": "Chop Trees 600 times",
+                    "reward": {
+                        "coins": 500,
+                        "items": {}
+                    },
+                    "initialProgress": 252,
+                    "startedAt": 1745800100326
                 }
             }
         },
@@ -418,13 +399,13 @@
             },
             "activity": {
                 "Tree Chopped": 252,
-                "Coins Earned": 22474.41,
+                "Coins Earned": 23665.21,
                 "Sunflower Harvested": 4493,
                 "Sunflower Sold": 123,
                 "Potato Harvested": 1537,
-                "Coins Spent": 19615,
+                "Coins Spent": 21015,
                 "Sunflower Seed Bought": 3900,
-                "Mashed Potato Cooked": 35,
+                "Mashed Potato Cooked": 40,
                 "Sunflower Planted": 4481,
                 "Mashed Potato Fed": 1,
                 "Basic Scarecrow Crafted": 1,
@@ -441,11 +422,11 @@
                 "Building Constructed": 3,
                 "Soybean Planted": 1093,
                 "Soybean Seed Bought": 1050,
-                "Soybean Harvested": 1056,
+                "Soybean Harvested": 1093,
                 "Soybean Sold": 27.5,
-                "Carrot Planted": 1344,
+                "Carrot Planted": 1381,
                 "Carrot Seed Bought": 1240,
-                "Carrot Harvested": 1348,
+                "Carrot Harvested": 1385,
                 "Reindeer Carrot Cooked": 36,
                 "Reindeer Carrot Fed": 18,
                 "Collectible Placed": 24,
@@ -463,8 +444,8 @@
                 "Community Coin Sold": 1,
                 "Corn Planted": 232,
                 "Corn Seed Bought": 207,
-                "Compost Bin Collected": 60,
-                "Crop Fertilised": 557,
+                "Compost Bin Collected": 61,
+                "Crop Fertilised": 594,
                 "Rod Casted": 26,
                 "Rod Crafted": 16,
                 "Boiled Eggs Cooked": 1,
@@ -509,7 +490,7 @@
                 "Honey Harvested": 11,
                 "Yellow Pansy Harvested": 2,
                 "Scary Mike Crafted": 1,
-                "Beetroot Seed Bought": 220,
+                "Beetroot Seed Bought": 380,
                 "Beetroot Planted": 235,
                 "Beetroot Harvested": 235,
                 "Sunflower Cake Fed": 1,
@@ -518,7 +499,7 @@
                 "Banana Plant Bought": 20,
                 "Banana Plant Planted": 4,
                 "Pumpkin Soup Cooked": 15,
-                "Cauliflower Seed Bought": 180,
+                "Cauliflower Seed Bought": 340,
                 "Cauliflower Planted": 70,
                 "Banana Harvested": 15,
                 "Blue Cosmos Harvested": 3,
@@ -553,7 +534,9 @@
                 "Broccoli Harvested": 210,
                 "Sauerkraut Fed": 1,
                 "Goblin's Treat Fed": 1,
-                "Beetroot Cake Fed": 3
+                "Beetroot Cake Fed": 3,
+                "Parsnip Planted": 37,
+                "Parsnip Seed Bought": 120
             },
             "updatedAt": 1743832563572,
             "paidSkillResets": 0,
@@ -719,18 +702,18 @@
                     "date": "2025-05-25"
                 },
                 {
+                    "date": "2025-05-27",
+                    "weather": true,
+                    "name": "unknown"
+                },
+                {
+                    "date": "2025-05-30",
+                    "weather": true,
+                    "name": "unknown"
+                },
+                {
                     "name": "fullMoon",
                     "date": "2025-05-12"
-                },
-                {
-                    "name": "sunshower",
-                    "date": "2025-04-22",
-                    "weather": true
-                },
-                {
-                    "name": "tornado",
-                    "date": "2025-04-25",
-                    "weather": true
                 }
             ]
         },
@@ -752,7 +735,6 @@
             "Gold Pickaxe": "5",
             "Oil Drill": "5",
             "Rod": "50",
-            "Parsnip Seed": "120",
             "Onion Seed": "100",
             "Turnip Seed": "80",
             "Radish Seed": "80",
@@ -776,8 +758,6 @@
             "Corn Seed": "100",
             "Cabbage Seed": "180",
             "Rhubarb Seed": "400",
-            "Beetroot Seed": "160",
-            "Cauliflower Seed": "160",
             "Pepper Seed": "160",
             "Sunflower Seed": "800",
             "Zucchini Seed": "400",
@@ -796,10 +776,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "c1af399c",
-                    "plantedAt": 1745784774298,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "5f3e3d8a",
+                    "plantedAt": 1745788362767,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800183305
                 }
             },
             "2": {
@@ -809,10 +793,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "80bb000e",
-                    "plantedAt": 1745784774441,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "d60ed2c5",
+                    "plantedAt": 1745788362919,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800183488
                 }
             },
             "3": {
@@ -822,10 +810,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "61bb0b60",
-                    "plantedAt": 1745784774636,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "0da7a657",
+                    "plantedAt": 1745788363117,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800183849
                 }
             },
             "4": {
@@ -835,10 +827,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "c40ff588",
-                    "plantedAt": 1745784774112,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "1515a08a",
+                    "plantedAt": 1745788362595,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800183147
                 }
             },
             "5": {
@@ -848,10 +844,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "c33248b2",
-                    "plantedAt": 1745784775650,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "335cc258",
+                    "plantedAt": 1745788364055,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800185227
                 }
             },
             "6": {
@@ -861,10 +861,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "1aa31e99",
-                    "plantedAt": 1745784773617,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "66abaf24",
+                    "plantedAt": 1745788362194,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800182545
                 }
             },
             "7": {
@@ -874,10 +878,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "2700d1e6",
-                    "plantedAt": 1745784773432,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "ba4f6d0a",
+                    "plantedAt": 1745788362042,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800182379
                 }
             },
             "8": {
@@ -887,10 +895,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "0e316908",
-                    "plantedAt": 1745784773255,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "e18d6772",
+                    "plantedAt": 1745788361880,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800182215
                 }
             },
             "9": {
@@ -900,10 +912,14 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "347d881e",
-                    "plantedAt": 1745784773063,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "86b0187f",
+                    "plantedAt": 1745788361518,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800181825
                 }
             },
             "10": {
@@ -913,10 +929,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "7901ec7d",
-                    "plantedAt": 1745784772887,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "5c5d97a5",
+                    "plantedAt": 1745788361310,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800181650
                 }
             },
             "11": {
@@ -926,10 +946,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "45bab441",
-                    "plantedAt": 1745784774806,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "6a1aeac7",
+                    "plantedAt": 1745788363302,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800184698
                 }
             },
             "12": {
@@ -939,10 +963,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "ff18c3a9",
-                    "plantedAt": 1745784775851,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "8f088f69",
+                    "plantedAt": 1745788364230,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800185373
                 }
             },
             "13": {
@@ -952,10 +980,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "09fe867d",
-                    "plantedAt": 1745784772738,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "2526e054",
+                    "plantedAt": 1745788361108,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800181493
                 }
             },
             "14": {
@@ -965,10 +997,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "4f5fda38",
-                    "plantedAt": 1745784774963,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "c3ec97ba",
+                    "plantedAt": 1745788363488,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800184032
                 }
             },
             "15": {
@@ -978,10 +1014,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "2f51d912",
-                    "plantedAt": 1745784776005,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "12d0d5f7",
+                    "plantedAt": 1745788364433,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800185595
                 }
             },
             "16": {
@@ -991,10 +1031,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "f68c1be1",
-                    "plantedAt": 1745784767892,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "983844e3",
+                    "plantedAt": 1745788356188,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800176115
                 }
             },
             "17": {
@@ -1004,10 +1048,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "bfc8b0e4",
-                    "plantedAt": 1745784770515,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "9e3eb416",
+                    "plantedAt": 1745788358959,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800178892
                 }
             },
             "18": {
@@ -1017,10 +1065,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "fdb93b82",
-                    "plantedAt": 1745784771113,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "6d67500c",
+                    "plantedAt": 1745788359408,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800179625
                 }
             },
             "57046650": {
@@ -1030,10 +1082,14 @@
                 "x": 2,
                 "y": 4,
                 "crop": {
-                    "id": "16eeac1a",
-                    "plantedAt": 1745784768561,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "8d6afc09",
+                    "plantedAt": 1745788357095,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800177633
                 }
             },
             "4abe6688": {
@@ -1043,10 +1099,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "56e8c489",
-                    "plantedAt": 1745784771282,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "d3a92511",
+                    "plantedAt": 1745788359577,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800179970
                 }
             },
             "fad5577f": {
@@ -1056,10 +1116,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "b659ce38",
-                    "plantedAt": 1745784770209,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "f6097eea",
+                    "plantedAt": 1745788358425,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800178521
                 }
             },
             "139b4920": {
@@ -1069,10 +1133,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "0b8ef02d",
-                    "plantedAt": 1745784771839,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "d290c8e7",
+                    "plantedAt": 1745788360105,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800180522
                 }
             },
             "1771b863": {
@@ -1082,10 +1150,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "f570bfdc",
-                    "plantedAt": 1745784769699,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "84adf9b7",
+                    "plantedAt": 1745788358101,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800178158
                 }
             },
             "37d9bf6f": {
@@ -1095,10 +1167,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "db547004",
-                    "plantedAt": 1745784770375,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "941bbb06",
+                    "plantedAt": 1745788358618,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800178730
                 }
             },
             "3a8b2048": {
@@ -1108,10 +1184,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "ab853eee",
-                    "plantedAt": 1745784769857,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "d1535cf5",
+                    "plantedAt": 1745788358303,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800178345
                 }
             },
             "4e144863": {
@@ -1121,10 +1201,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "ed52373b",
-                    "plantedAt": 1745784776197,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "5f1c2789",
+                    "plantedAt": 1745788364588,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800185976
                 }
             },
             "6bc37163": {
@@ -1134,10 +1218,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "2de3738c",
-                    "plantedAt": 1745784772176,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "1102cfb7",
+                    "plantedAt": 1745788360273,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800180891
                 }
             },
             "6cd5598c": {
@@ -1147,10 +1235,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "cb2d245c",
-                    "plantedAt": 1745784768212,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "c270d46e",
+                    "plantedAt": 1745788356566,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800176546
                 }
             },
             "9f9b668c": {
@@ -1160,10 +1252,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "8c8f9753",
-                    "plantedAt": 1745784772017,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "9781ba5f",
+                    "plantedAt": 1745788360910,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800180690
                 }
             },
             "ae6933d5": {
@@ -1173,10 +1269,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "9146abc9",
-                    "plantedAt": 1745784771442,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "e73d68b4",
+                    "plantedAt": 1745788359725,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800180144
                 }
             },
             "d9908880": {
@@ -1186,10 +1286,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "06169fb6",
-                    "plantedAt": 1745784776346,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "e552b84e",
+                    "plantedAt": 1745788364769,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800186148
                 }
             },
             "da225c4c": {
@@ -1199,10 +1303,14 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "4921eaed",
-                    "plantedAt": 1745784769499,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "a2ba20ac",
+                    "plantedAt": 1745788357972,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800177999
                 }
             },
             "2e3bd685": {
@@ -1212,18 +1320,14 @@
                 "x": -2,
                 "y": 4,
                 "crop": {
-                    "id": "4973e6b7",
-                    "plantedAt": 1745784768026,
-                    "name": "Soybean",
-                    "amount": 1.9,
-                    "reward": {
-                        "items": [
-                            {
-                                "amount": 2,
-                                "name": "Soybean Seed"
-                            }
-                        ]
-                    }
+                    "id": "bff39ca4",
+                    "plantedAt": 1745788356381,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800176359
                 }
             },
             "de1c1caf": {
@@ -1233,10 +1337,14 @@
                 "x": 0,
                 "y": 4,
                 "crop": {
-                    "id": "6a10cee2",
-                    "plantedAt": 1745784768390,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "24a7a26a",
+                    "plantedAt": 1745788357511,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800176757
                 }
             },
             "376332fa": {
@@ -1246,10 +1354,14 @@
                 "x": 1,
                 "y": 4,
                 "crop": {
-                    "id": "7f94a92f",
-                    "plantedAt": 1745784769216,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "91cafe66",
+                    "plantedAt": 1745788356926,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800177461
                 }
             },
             "169f1bbc": {
@@ -1259,10 +1371,14 @@
                 "x": -3,
                 "y": -2,
                 "crop": {
-                    "id": "116d11ce",
-                    "plantedAt": 1745784776980,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "9709ff13",
+                    "plantedAt": 1745788365231,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800186557
                 }
             },
             "972ef45c": {
@@ -1272,10 +1388,14 @@
                 "x": 2,
                 "y": -1,
                 "crop": {
-                    "id": "ba618a56",
-                    "plantedAt": 1745784775490,
-                    "name": "Soybean",
-                    "amount": 1.9
+                    "id": "4d44bea0",
+                    "plantedAt": 1745788363872,
+                    "name": "Parsnip",
+                    "amount": 2.1
+                },
+                "fertiliser": {
+                    "name": "Sprout Mix",
+                    "fertilisedAt": 1745800185032
                 }
             }
         },
@@ -1849,12 +1969,7 @@
                     "createdAt": 0,
                     "id": "1123",
                     "readyAt": 0,
-                    "cancelled": {
-                        "Mashed Potato": {
-                            "count": 1,
-                            "cancelledAt": 1745606868702
-                        }
-                    },
+                    "cancelled": {},
                     "crafting": [],
                     "oil": 0
                 }
@@ -1889,15 +2004,7 @@
                         "x": 6,
                         "y": 9
                     },
-                    "readyAt": 1744829773300,
-                    "producing": {
-                        "items": {
-                            "Sprout Mix": 10,
-                            "Earthworm": 3
-                        },
-                        "startedAt": 1745776806418,
-                        "readyAt": 1745798406418
-                    }
+                    "readyAt": 1744829773300
                 }
             ],
             "Kitchen": [
@@ -1987,13 +2094,13 @@
             "holes": {}
         },
         "dailyRewards": {
-            "streaks": 20,
+            "streaks": 21,
             "chest": {
-                "collectedAt": 1745713406352,
-                "code": 17
+                "collectedAt": 1745800325011,
+                "code": 18
             }
         },
-        "seed": "Lk/DsDMflNyDkvhYMTa1cNigrdG8wosefNzFUkFsLJjl2cKfVZ0OuKJ5PJek6oRoyKQiY7JqAvt+QzDUr1yuGTpIpkvEjdUM4WWwiflYLRi+hD23Nat4Dbj1keUc0ra0g9ei8cf2ZNbzzny+rY/5tjNrAPHiD1w1/X3o8gScg27ExzXhBkc41ksZ9Cshcm4wAqBE7lPvsyhJSYsifiMVWKtv+B97dW3iqUHauLUS1yTic+dwFC/4dksBWi5o6kycowdOmOd3E20rglkvzT2F135IPAVo6jmQaObsR8CB6S7xSfFeKmw6afn+iaIqr5E3STKBypwDFwpZIqfuAYDsjztViYoB7u/DzrAwJbQetpOQhACNX5KZK/Hi1RXYhJup8wjfYAdMnTO9lk8VzqCB+aeXHnAHoNBc8choi1WiN8cscO1kovWzLzOVaFpSPSxKA97AcHzW2BX+RMX0hPHNu3DeT37TZ/Y7A70qJ/f3ADawLhrAjhnaO4Ec8J8EpFQ4lBbgfTY4P/ndOIHEa+3BHEHX9Fn5u/EXofEEJ7uTJ8LIE9IAh2qx2kYzl0zx2184GVfJa8HFBuswZfveozZ5SrHrOZqwlaXfT2Wu7YazoT7Ste27w0e1UbfRTQQicci0ht8ldb0Ms2G7fp+LNLSN+6B2RW7X0YLcLtZZ6nEprjI25O4PKnwOLTpTmRumv/MMFmDEahclxDjeVsCfpH/mOiHbcKC/4VBhdwX/yQu/5uua04OxEJ7TyOBfrcQDWdk1LJD7bPyr0xuz9gauFlhongsT6Dqktgi94LHjpCi/XLH2xbSUVKK7GQbBJiLHS8JykUQf/3BKV8EQOlcs5NaYI4l8gVi3+k7TK9DEBw/TzaFdaLi1sduqm1gpLB+u3xPQHn89PjT+zJn966lV0WFxGzRzIf37cA3cQKBHJvOialBlYgXakPY8RVXPNq5p44TLSI5mEfjo4Ar/SgY8wxJSdrPwic20FeoT1XITNGtKtmYKSlKxrydsRxxRAMCvHwOHEdVZXZ6DmUlY9TD7Bg5OgkAqfEZDDNqi78FMQz4If2OyXTrzDjLKY2nYsTwyj7WYDHCBqnic1+k/rrfe/9KvE36xdqvakw9pXp/rpAOmX2XtWR9uhIpquqQ48juio4FNHYaqbHx9bRF0DpTz7WPBrr46n+fbTzhLpFu0eqyhuWeAtS5MHyr8j5iS2NOPEPu/mvOAuN2eHJP0UzLyNYuNbAWXwtTA/Hz3/JqXYKKWJeVOY5sSFozjxjhevhItLphUQUzpMc0GnxgBE7sawNQOPSn026MAE6uw7chHxjYK3jiNgvwZv7HK0qNoizZSkHjy1hhhtwM0zCCRnqmiVVR9IWI/KAQNvvOlwyyVqraQN5DTYIvpSluUhJ8L8sFUHO1J8rQU+dfpMUFVEenVKJMM4ahp0GHh9S417KICpYLIMIVSVx7cKo20ocQUDtfVDOlMCrpodWINJPF4hqf8Dxnn5E6Q5bo=",
+        "seed": "Lk/DsDMflNyDkvhYMTa1cNigrdEe0wPf31gPbFUPVSvDogl5lucXWF0wM8nOtbeAw3cWTNR7c2zFLi+9Kk/GYFo+i+D1RFW0hz0sDERDJKnyAF8msXCKMEXFweSV+Wruk4kaU3v0J8ia9U5d/BjQtz9DSvSS99kzUj9hkAkW8amjGfZUEIv0OUi/4TBoM3S/Tygn8iBTWH5n2PbWAFUGM0tNfKEMuJRw936bbJBnGoVY9fyr3nPe1Y9tPrHp8eHTCvIzqlC5dsABst66p42ZYXyAy2zWuUIcjDFdhZGDNVKENBTMgUGqe2z+K+hSWtPqr5Bwj6/jgBJXk/COEaglMwggNRBqOgi1YKr1i5BJx4wWW1QNbpQvxUptfWqOjlE++CkrS/nZD6bQPgqbEp18tDS8ygVDSHHOXrEc6ZSCkBiJdFwVMDt7LZASL/RH7U1rGQnE7+HS+rDvomobvJ9sRqakxq/a/WL/TIjGqgSRMzWLbulB41PBgqCV0Hjmc0y6W6Pv19pYiBSHCh3+GCcLbx9lMuKW76vp4e5CPJGzFGSScTSjxAefRH0DF0Px5mUqCY/acDkrQBIzT2CrSC4gUvPL3Q88z/tNgbZB2The66RBwAkwT1jw9zuxHClkHI84GH91bubit2/puhdN1RSSiYrsJ3o+YHee7oRO6UcpARsfw8abqy04wM3l+KXwg559a5Ke98ct+m++vGiIcKtriOYyNb6UMAwVabmInEtoRBwq9+aPNfzVrVD25Y6hiTsps34fq34efG7C9E0LJStZf5KIjXSsrHcktn2gGzIz7R/DSFUKOmtaUKYPOfetb+6g+isvIBC45u518Rmhj+E0w0gL1ewLW5XSb7Rag2QzYitC9+8tg7Au+uf6v9Erp3JJ91qqf0bXOB9RoDZqjPV+nur7WSk8ZC3WI9JZTZ4Wa+kLqFKabNhQZO+56Sfw2l46qKzUXvgfYsxlMAjH1urdqbfEAB4czVT1X/84SiHPqACVd7Bo5TedEWuqTgUmCSkAiyjMK2UBWT2EKTzqS5545GQdqbu70aoWqt9WI+TiaX5xPK2sd2oRjuj2wNQkVBEgGBIaXbnsLqnvBU5uAfg95PEM3HzyytENezzzWndkdSRX8PF8UnUFB+Lfx761FBYaYn97d51cf69+kETWxXTM3RSWBcE7EXXFmw/TwgK4+AgxF1FWdzjt49kDhUbNutkhSesnnslki9q+nFbA5yKVQrH3C+xZwDFW4Hq1uFZr9fa3VenDvA3shUcj+3+kv0jnxqR4WKwd+qW1bzIKADDDH1jWmBbZ6quRly43h++NjYN6AAIi8tsPt6w/H7svq8/8GaErtnX7OKeg022pyMyYcvirkZplTQNyY+ca19VJTAX0AdWt1PmbtHrqV0vY3c9/l7PzH0bEIo4PJRpNIgcEpjwzWHi1hXz9fQGHOacjnbYxH0IF5li9Sgp9qQeXO/FH8eKFDSD1rWFtvrw5ok10tFP2BYGrufRN2jdSZRQ/tXWJVaxu",
         "farmActivity": {
             "Crab Caught": 2,
             "Olive Flounder Caught": 1,
@@ -2101,8 +2208,8 @@
             ]
         },
         "mushrooms": {
-            "spawnedAt": 1745740800000,
-            "magicSpawnedAt": 1745668800000,
+            "spawnedAt": 1745798400000,
+            "magicSpawnedAt": 1745798400000,
             "mushrooms": {}
         },
         "delivery": {
@@ -2121,70 +2228,6 @@
                     }
                 },
                 {
-                    "createdAt": 1745280448408,
-                    "readyAt": 1745280448408,
-                    "from": "finn",
-                    "id": "7dfb8d",
-                    "items": {
-                        "Leather": 6
-                    },
-                    "reward": {}
-                },
-                {
-                    "createdAt": 1745280453832,
-                    "readyAt": 1745280453832,
-                    "from": "bert",
-                    "id": "c8dda6",
-                    "items": {
-                        "Stone": 25,
-                        "Axe": 5
-                    },
-                    "reward": {}
-                },
-                {
-                    "createdAt": 1745280458633,
-                    "readyAt": 1745280458633,
-                    "from": "raven",
-                    "id": "e1a5d3",
-                    "items": {
-                        "Rice Bun": 2
-                    },
-                    "reward": {}
-                },
-                {
-                    "createdAt": 1745280462001,
-                    "readyAt": 1745280462001,
-                    "from": "finley",
-                    "id": "5bd2a4",
-                    "items": {
-                        "Rod": 5,
-                        "Barley": 10
-                    },
-                    "reward": {}
-                },
-                {
-                    "createdAt": 1745280465727,
-                    "readyAt": 1745280465727,
-                    "from": "miranda",
-                    "id": "7b7db1",
-                    "items": {
-                        "Yellow Pansy": 2,
-                        "Cushion": 1
-                    },
-                    "reward": {}
-                },
-                {
-                    "createdAt": 1745280468509,
-                    "readyAt": 1745280468509,
-                    "from": "pharaoh",
-                    "id": "432b46",
-                    "items": {
-                        "Sand Drill": 2,
-                        "Sand": 20
-                    },
-                    "reward": {}
-                },
-                {
                     "createdAt": 1745374032120,
                     "id": "554618",
                     "from": "old salty",
@@ -2194,19 +2237,6 @@
                     "readyAt": 1745374032120,
                     "reward": {
                         "coins": 260,
-                        "items": {}
-                    }
-                },
-                {
-                    "createdAt": 1745374038693,
-                    "id": "ffa817",
-                    "from": "corale",
-                    "items": {
-                        "Red Snapper": 4
-                    },
-                    "readyAt": 1745374038693,
-                    "reward": {
-                        "coins": 736,
                         "items": {}
                     }
                 },
@@ -2235,83 +2265,6 @@
                     }
                 },
                 {
-                    "createdAt": 1745712866203,
-                    "id": "4ff5dc",
-                    "from": "betty",
-                    "items": {
-                        "Potato": 225
-                    },
-                    "readyAt": 1745712866203,
-                    "reward": {
-                        "coins": 268,
-                        "items": {}
-                    },
-                    "completedAt": 1745713345360
-                },
-                {
-                    "createdAt": 1745712866203,
-                    "id": "8faa8b",
-                    "from": "blacksmith",
-                    "items": {
-                        "Wood": 15
-                    },
-                    "readyAt": 1745712866203,
-                    "reward": {
-                        "coins": 486,
-                        "items": {}
-                    },
-                    "completedAt": 1745713338397
-                },
-                {
-                    "createdAt": 1745712866203,
-                    "readyAt": 1745712866203,
-                    "from": "pumpkin' pete",
-                    "id": "206da4",
-                    "items": {
-                        "Carrot": 10,
-                        "Potato": 10
-                    },
-                    "reward": {},
-                    "completedAt": 1745724571503
-                },
-                {
-                    "createdAt": 1745713174130,
-                    "id": "e09497",
-                    "from": "grimbly",
-                    "items": {
-                        "Pumpkin Soup": 5
-                    },
-                    "readyAt": 1745713174130,
-                    "reward": {
-                        "sfl": 0.4
-                    },
-                    "completedAt": 1745724245254
-                },
-                {
-                    "createdAt": 1745713178072,
-                    "id": "f40ada",
-                    "from": "grimtooth",
-                    "items": {
-                        "Sea Bass": 2
-                    },
-                    "readyAt": 1745713178072,
-                    "reward": {
-                        "sfl": 0.4
-                    }
-                },
-                {
-                    "createdAt": 1745713181786,
-                    "id": "8f4d8e",
-                    "from": "grubnuk",
-                    "items": {
-                        "Kale Stew": 4
-                    },
-                    "readyAt": 1745713181786,
-                    "reward": {
-                        "sfl": 0.55
-                    }
-                },
-                {
                     "createdAt": 1745713425304,
                     "readyAt": 1745713425304,
                     "from": "timmy",
@@ -2321,17 +2274,171 @@
                         "Apple Juice": 3
                     },
                     "reward": {}
+                },
+                {
+                    "createdAt": 1745800100316,
+                    "id": "2c4552",
+                    "from": "betty",
+                    "items": {
+                        "Potato": 225
+                    },
+                    "readyAt": 1745800100316,
+                    "reward": {
+                        "coins": 268,
+                        "items": {}
+                    },
+                    "completedAt": 1745800366360
+                },
+                {
+                    "createdAt": 1745800100316,
+                    "id": "8bca9f",
+                    "from": "blacksmith",
+                    "items": {
+                        "Stone": 8
+                    },
+                    "readyAt": 1745800100316,
+                    "reward": {
+                        "coins": 702,
+                        "items": {}
+                    },
+                    "completedAt": 1745800347454
+                },
+                {
+                    "createdAt": 1745800100447,
+                    "id": "e92f63",
+                    "from": "grimbly",
+                    "items": {
+                        "Club Sandwich": 1
+                    },
+                    "readyAt": 1745800100447,
+                    "reward": {
+                        "sfl": 0.4
+                    }
+                },
+                {
+                    "createdAt": 1745800100316,
+                    "readyAt": 1745800100316,
+                    "from": "pumpkin' pete",
+                    "id": "ac67f8",
+                    "items": {
+                        "Potato": 20,
+                        "Mashed Potato": 5
+                    },
+                    "reward": {},
+                    "completedAt": 1745800576224
+                },
+                {
+                    "createdAt": 1745800415230,
+                    "id": "477485",
+                    "from": "grimtooth",
+                    "items": {
+                        "Butterflyfish": 3
+                    },
+                    "readyAt": 1745800415230,
+                    "reward": {
+                        "sfl": 0.4
+                    }
+                },
+                {
+                    "createdAt": 1745800419200,
+                    "id": "b2f778",
+                    "from": "grubnuk",
+                    "items": {
+                        "Pancakes": 1
+                    },
+                    "readyAt": 1745800419200,
+                    "reward": {
+                        "sfl": 0.55
+                    }
+                },
+                {
+                    "createdAt": 1745800432392,
+                    "readyAt": 1745800432392,
+                    "from": "finn",
+                    "id": "7afbca",
+                    "items": {
+                        "Tuna": 3,
+                        "Red Snapper": 1
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745800436325,
+                    "readyAt": 1745800436325,
+                    "from": "bert",
+                    "id": "7bbb2a",
+                    "items": {
+                        "Fence": 25
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745800439547,
+                    "readyAt": 1745800439547,
+                    "from": "raven",
+                    "id": "1fcf0b",
+                    "items": {
+                        "Pizza Margherita": 1
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745800444987,
+                    "readyAt": 1745800444987,
+                    "from": "finley",
+                    "id": "3d48f3",
+                    "items": {
+                        "Barley": 20,
+                        "Rod": 3
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745800449901,
+                    "readyAt": 1745800449901,
+                    "from": "miranda",
+                    "id": "d8aaca",
+                    "items": {
+                        "Yellow Cosmos": 1,
+                        "Cushion": 1
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745800456056,
+                    "readyAt": 1745800456056,
+                    "from": "pharaoh",
+                    "id": "a583d6",
+                    "items": {
+                        "Sand Shovel": 7,
+                        "Crab": 5,
+                        "Sand": 15
+                    },
+                    "reward": {}
+                },
+                {
+                    "createdAt": 1745800811956,
+                    "id": "a3fcbb",
+                    "from": "corale",
+                    "items": {
+                        "Seaweed": 3
+                    },
+                    "readyAt": 1745800811956,
+                    "reward": {
+                        "coins": 321,
+                        "items": {}
+                    }
                 }
             ],
-            "fulfilledCount": 116,
+            "fulfilledCount": 119,
             "milestone": {
                 "goal": 10,
                 "total": 10
             },
             "doubleDelivery": "2025-05-01",
             "dailySFL": {
-                "day": 117,
-                "amount": 4.353110393880905
+                "day": 118,
+                "amount": 4.379228908595054
             }
         },
         "catchTheKraken": {
@@ -2340,29 +2447,30 @@
         },
         "npcs": {
             "blacksmith": {
-                "deliveryCount": 25,
+                "deliveryCount": 26,
                 "friendship": {
-                    "updatedAt": 1745713338397,
-                    "points": 75,
+                    "updatedAt": 1745800347454,
+                    "points": 78,
                     "giftClaimedAtPoints": 50
                 },
-                "deliveryCompletedAt": 1745713338397,
+                "deliveryCompletedAt": 1745800347454,
                 "streaks": {
-                    "streak": 21,
-                    "lastClaimedAt": 1745713338397
+                    "streak": 22,
+                    "lastClaimedAt": 1745800347454
                 }
             },
             "betty": {
-                "deliveryCount": 29,
+                "deliveryCount": 30,
                 "friendship": {
-                    "updatedAt": 1745713345360,
-                    "points": 90,
-                    "giftClaimedAtPoints": 40
+                    "updatedAt": 1745800373715,
+                    "points": 101,
+                    "giftClaimedAtPoints": 40,
+                    "giftedAt": 1745800373715
                 },
-                "deliveryCompletedAt": 1745713345360,
+                "deliveryCompletedAt": 1745800366360,
                 "streaks": {
-                    "streak": 21,
-                    "lastClaimedAt": 1745713345360
+                    "streak": 22,
+                    "lastClaimedAt": 1745800366360
                 },
                 "choreCount": 3
             },
@@ -2389,22 +2497,23 @@
                 "choreCount": 3
             },
             "pumpkin' pete": {
-                "deliveryCount": 23,
+                "deliveryCount": 24,
                 "friendship": {
-                    "updatedAt": 1745724571503,
-                    "points": 71,
-                    "giftClaimedAtPoints": 50
+                    "updatedAt": 1745800584456,
+                    "points": 83,
+                    "giftClaimedAtPoints": 50,
+                    "giftedAt": 1745800584456
                 },
-                "deliveryCompletedAt": 1745724571503,
+                "deliveryCompletedAt": 1745800576224,
                 "streaks": {
-                    "streak": 21,
-                    "lastClaimedAt": 1745724571503
+                    "streak": 22,
+                    "lastClaimedAt": 1745800576224
                 },
                 "choreCount": 2
             },
             "corale": {
                 "deliveryCount": 6,
-                "skippedCount": 10,
+                "skippedCount": 11,
                 "deliveryCompletedAt": 1744849987670,
                 "friendship": {
                     "updatedAt": 1744849987670,
@@ -2418,7 +2527,7 @@
             },
             "bert": {
                 "deliveryCount": 0,
-                "skippedCount": 12,
+                "skippedCount": 13,
                 "choreCount": 1,
                 "friendship": {
                     "points": 1,
@@ -2436,7 +2545,7 @@
             },
             "grimtooth": {
                 "deliveryCount": 3,
-                "skippedCount": 12,
+                "skippedCount": 13,
                 "deliveryCompletedAt": 1745419029503,
                 "streaks": {
                     "streak": 2,
@@ -2445,11 +2554,11 @@
             },
             "raven": {
                 "deliveryCount": 0,
-                "skippedCount": 9
+                "skippedCount": 10
             },
             "finley": {
                 "deliveryCount": 0,
-                "skippedCount": 9
+                "skippedCount": 10
             },
             "tango": {
                 "deliveryCount": 1,
@@ -2476,15 +2585,15 @@
             },
             "miranda": {
                 "deliveryCount": 0,
-                "skippedCount": 5
+                "skippedCount": 6
             },
             "finn": {
                 "deliveryCount": 0,
-                "skippedCount": 4
+                "skippedCount": 5
             },
             "grubnuk": {
                 "deliveryCount": 3,
-                "skippedCount": 7,
+                "skippedCount": 8,
                 "deliveryCompletedAt": 1745453817842,
                 "streaks": {
                     "streak": 1,
@@ -2493,7 +2602,7 @@
             },
             "pharaoh": {
                 "deliveryCount": 0,
-                "skippedCount": 4
+                "skippedCount": 5
             }
         },
         "islands": {},
@@ -2545,49 +2654,49 @@
                         "Easter Token 2025": 50
                     },
                     "wearables": {},
-                    "score": 65,
-                    "startAt": 1745712000000,
-                    "endAt": 1745798400000
+                    "score": 80,
+                    "startAt": 1745798400000,
+                    "endAt": 1745884800000
                 },
                 "chicken-rescue": {
-                    "coins": 0,
-                    "items": {
-                        "Mark": 30
-                    },
-                    "wearables": {},
-                    "score": 35,
-                    "startAt": 1745712000000,
-                    "endAt": 1745798400000
-                },
-                "crops-and-chickens": {
-                    "coins": 0,
-                    "items": {
-                        "Mark": 20
-                    },
-                    "wearables": {},
-                    "score": 500,
-                    "startAt": 1745712000000,
-                    "endAt": 1745798400000
-                },
-                "halloween": {
-                    "coins": 0,
-                    "items": {
-                        "Mark": 50
-                    },
-                    "wearables": {},
-                    "score": 135000,
-                    "startAt": 1745712000000,
-                    "endAt": 1745798400000
-                },
-                "fruit-dash": {
                     "coins": 0,
                     "items": {
                         "Mark": 25
                     },
                     "wearables": {},
-                    "score": 1250,
-                    "startAt": 1745712000000,
-                    "endAt": 1745798400000
+                    "score": 30,
+                    "startAt": 1745798400000,
+                    "endAt": 1745884800000
+                },
+                "crops-and-chickens": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 35
+                    },
+                    "wearables": {},
+                    "score": 1000,
+                    "startAt": 1745798400000,
+                    "endAt": 1745884800000
+                },
+                "halloween": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 20
+                    },
+                    "wearables": {},
+                    "score": 60000,
+                    "startAt": 1745798400000,
+                    "endAt": 1745884800000
+                },
+                "fruit-dash": {
+                    "coins": 0,
+                    "items": {
+                        "Mark": 45
+                    },
+                    "wearables": {},
+                    "score": 2250,
+                    "startAt": 1745798400000,
+                    "endAt": 1745884800000
                 }
             }
         },
@@ -2604,8 +2713,8 @@
             "network": "Polygon"
         },
         "flowerShop": {
-            "week": 1745193600000,
-            "weeklyFlower": "Red Cosmos"
+            "week": 1745798400000,
+            "weeklyFlower": "Red Carnation"
         },
         "specialEvents": {
             "history": {},
@@ -2618,13 +2727,13 @@
             "digging": {
                 "grid": [],
                 "patterns": [
-                    "ARTEFACT_SEVENTEEN",
-                    "ARTEFACT_FOURTEEN",
+                    "ARTEFACT_TWENTY_THREE",
                     "ARTEFACT_TWENTY_ONE",
+                    "ARTEFACT_THIRTEEN",
                     "HIEROGLYPH",
                     "HIEROGLYPH",
                     "COCKLE",
-                    "OLD_BOTTLE",
+                    "COCKLE",
                     "CLAM_SHELLS"
                 ]
             }
@@ -2713,192 +2822,166 @@
         "bounties": {
             "requests": [
                 {
+                    "level": 12,
+                    "id": "0ad463",
+                    "name": "Chicken",
+                    "coins": 470
+                },
+                {
                     "level": 7,
-                    "id": "1bee49",
+                    "id": "dbadc3",
                     "name": "Chicken",
                     "coins": 180
                 },
                 {
+                    "level": 3,
+                    "id": "b772ab",
+                    "name": "Chicken",
+                    "coins": 100
+                },
+                {
                     "level": 8,
-                    "id": "0004f3",
+                    "id": "13ca10",
                     "name": "Chicken",
                     "coins": 220
                 },
                 {
-                    "level": 3,
-                    "id": "b7f2e7",
+                    "level": 5,
+                    "id": "52620f",
                     "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
+                    "coins": 120
                 },
                 {
                     "level": 6,
-                    "id": "d99456",
+                    "id": "17afc9",
                     "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
+                    "coins": 140
+                },
+                {
+                    "level": 10,
+                    "id": "65e975",
+                    "name": "Chicken",
+                    "coins": 310
+                },
+                {
+                    "level": 9,
+                    "id": "768171",
+                    "name": "Chicken",
+                    "coins": 260
                 },
                 {
                     "level": 4,
-                    "id": "06627a",
+                    "id": "ef8b09",
                     "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
-                },
-                {
-                    "level": 6,
-                    "id": "f68f76",
-                    "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
-                },
-                {
-                    "level": 6,
-                    "id": "23d5d9",
-                    "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
-                },
-                {
-                    "level": 2,
-                    "id": "031183",
-                    "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
-                },
-                {
-                    "level": 7,
-                    "id": "4c56dd",
-                    "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
-                },
-                {
-                    "level": 7,
-                    "id": "1215a2",
-                    "name": "Chicken",
-                    "items": {
-                        "Timeshard": 3
-                    }
-                },
-                {
-                    "level": 7,
-                    "id": "c864b7",
-                    "name": "Cow",
-                    "coins": 1810
-                },
-                {
-                    "level": 3,
-                    "id": "420e6d",
-                    "name": "Cow",
-                    "items": {
-                        "Timeshard": 2
-                    }
-                },
-                {
-                    "level": 7,
-                    "id": "79b114",
-                    "name": "Cow",
-                    "items": {
-                        "Timeshard": 5
-                    }
+                    "coins": 110
                 },
                 {
                     "level": 4,
-                    "id": "1d367b",
-                    "name": "Cow",
+                    "id": "a06561",
+                    "name": "Chicken",
                     "items": {
-                        "Timeshard": 2
-                    }
-                },
-                {
-                    "level": 6,
-                    "id": "fac410",
-                    "name": "Cow",
-                    "items": {
-                        "Timeshard": 4
+                        "Gem": 5
                     }
                 },
                 {
                     "level": 9,
-                    "id": "f41dd0",
+                    "id": "b9cd19",
+                    "name": "Cow",
+                    "coins": 2980
+                },
+                {
+                    "level": 3,
+                    "id": "523fee",
+                    "name": "Cow",
+                    "coins": 540
+                },
+                {
+                    "level": 3,
+                    "id": "516c1e",
+                    "name": "Cow",
+                    "coins": 540
+                },
+                {
+                    "level": 8,
+                    "id": "7c18b0",
+                    "name": "Cow",
+                    "coins": 2400
+                },
+                {
+                    "level": 3,
+                    "id": "052dac",
+                    "name": "Cow",
+                    "items": {
+                        "Gem": 5
+                    }
+                },
+                {
+                    "level": 4,
+                    "id": "3c1106",
                     "name": "Sheep",
-                    "coins": 1300
+                    "coins": 400
                 },
                 {
                     "level": 7,
-                    "id": "5cc3e6",
+                    "id": "b21422",
                     "name": "Sheep",
-                    "items": {
-                        "Timeshard": 5
-                    }
-                },
-                {
-                    "level": 3,
-                    "id": "7ef780",
-                    "name": "Sheep",
-                    "items": {
-                        "Timeshard": 2
-                    }
+                    "coins": 830
                 },
                 {
                     "level": 6,
-                    "id": "00792d",
+                    "id": "0f6dee",
+                    "name": "Sheep",
+                    "coins": 600
+                },
+                {
+                    "level": 12,
+                    "id": "a73610",
+                    "name": "Sheep",
+                    "coins": 2550
+                },
+                {
+                    "level": 5,
+                    "id": "f17519",
                     "name": "Sheep",
                     "items": {
-                        "Timeshard": 4
+                        "Gem": 10
                     }
                 },
                 {
-                    "level": 3,
-                    "id": "15bf58",
-                    "name": "Sheep",
-                    "items": {
-                        "Timeshard": 2
-                    }
-                },
-                {
-                    "id": "e50ac6",
-                    "name": "Yellow Lotus",
-                    "items": {
-                        "Timeshard": 7
-                    }
-                },
-                {
-                    "id": "eba13d",
-                    "name": "White Carnation",
-                    "items": {
-                        "Timeshard": 7
-                    }
-                },
-                {
-                    "id": "d14cf7",
+                    "id": "b07514",
                     "name": "White Daffodil",
                     "items": {
-                        "Timeshard": 5
+                        "Gem": 5
                     }
                 },
                 {
-                    "id": "0009e0",
-                    "name": "Obsidian",
-                    "sfl": 45
+                    "id": "84fe56",
+                    "name": "Red Pansy",
+                    "items": {
+                        "Gem": 3
+                    }
                 },
                 {
-                    "id": "6aa1a4",
+                    "id": "2307fd",
+                    "name": "Blue Cosmos",
+                    "items": {
+                        "Gem": 3
+                    }
+                },
+                {
+                    "id": "9579d2",
+                    "name": "Obsidian",
+                    "sfl": 40
+                },
+                {
+                    "id": "d43e3d",
                     "name": "Obsidian",
                     "sfl": 35
                 },
                 {
-                    "id": "6a617a",
+                    "id": "5aa09d",
                     "name": "Obsidian",
-                    "sfl": 30
+                    "sfl": 35
                 }
             ],
             "completed": []
@@ -2910,8 +2993,8 @@
             "recipes": {}
         },
         "season": {
-            "startedAt": 1745193600000,
-            "season": "autumn"
+            "startedAt": 1745798400000,
+            "season": "winter"
         },
         "lavaPits": {},
         "socialTasks": {
