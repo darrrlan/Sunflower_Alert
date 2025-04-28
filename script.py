@@ -11,8 +11,6 @@ from colorama import init, Fore
 # Inicializar colorama
 init(autoreset=True)
 
-cont = 0
-
 url = "https://api.sunflower-land.com/visit/3349809990567285"
 
 tempos_crescimento_minutos = {
@@ -39,15 +37,15 @@ tempos_crescimento_minutos = {
 
 fuso_brasil = pytz.timezone('America/Sao_Paulo')
 
-def ms_to_datetime_local(ms): 
+def ms_to_datetime_local(ms):
     dt = datetime.datetime.fromtimestamp(ms / 1000)
     return fuso_brasil.localize(dt)
 
-def send_push_notification(title, message): 
+def send_push_notification(title, message):
     pb = Pushbullet("o.uxbBCN8ez4NQMqOfk6RtTT2baO9fOzcS")
     pb.push_note(title, message)
 
-def get_emoji_for_plant(nome): 
+def get_emoji_for_plant(nome):
     emojis = {
         "Sunflower": "🌻",
         "Potato": "🥔",
@@ -67,84 +65,85 @@ def get_emoji_for_plant(nome):
         "Honey": "🍯",
         "Blueberry": "🫐",
         "Compost Bin": "♻️",
+        "Flower": "🌸",
     }
     return emojis.get(nome, "🌷")
 
-def load_notified(): 
-    try: 
-        with open('notificadas.json', 'r') as file: 
+def load_notified():
+    try:
+        with open('notificadas.json', 'r') as file:
             return set(json.load(file))
-    except FileNotFoundError: 
+    except FileNotFoundError:
         return set()
 
-def save_notified(notified): 
-    with open('notificadas.json', 'w') as file: 
+def save_notified(notified):
+    with open('notificadas.json', 'w') as file:
         json.dump(list(notified), file)
 
 notificadas = load_notified()
 
-while True: 
-    try: 
+while True:
+    try:
         response = requests.get(url)
 
         if response.status_code == 200:
             data = response.json()
 
-            with open('dados_fazenda.json', 'w') as json_file: 
+            with open('dados_fazenda.json', 'w') as json_file:
                 json.dump(data, json_file, indent=4)
 
             crops = data.get('state', {}).get('crops', {})
             fruitPatches = data.get('state', {}).get('fruitPatches', {})
             honey = data.get('state', {}).get('beehives', {})
             flowers = data.get('state', {}).get('flowers', {}).get('flowerBeds', {})
-            Compost_bin = data.get('state', {}).get('buildings', {}).get('Compost Bin', {})
+            compost_bins = data.get('state', {}).get('buildings', {}).get('Compost Bin', {})
 
             lista_itens = []
             agora = datetime.datetime.now(fuso_brasil)
             processados = set()
 
-            # Processar crops
-            for crop_info in crops.values(): 
+            # Processar plantações
+            for crop_info in crops.values():
                 crop_data = crop_info.get('crop', {})
                 nome = crop_data.get('name')
                 planted_at = crop_data.get('plantedAt')
 
-                if nome and planted_at and nome not in processados: 
+                if nome and planted_at and nome not in processados:
                     processados.add(nome)
                     plantado_em = ms_to_datetime_local(planted_at)
                     tempo_crescimento = tempos_crescimento_minutos.get(nome)
 
-                    if tempo_crescimento: 
+                    if tempo_crescimento:
                         pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                         tempo_faltando = (pronto_em - agora).total_seconds()
                         lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
             # Processar frutas
-            for fruit_info in fruitPatches.values(): 
+            for fruit_info in fruitPatches.values():
                 fruit_data = fruit_info.get('fruit')
-                if fruit_data: 
+                if fruit_data:
                     nome = fruit_data.get('name')
                     harvested_at = fruit_data.get('harvestedAt')
                     planted_at = fruit_data.get('plantedAt')
 
-                    if nome and nome not in processados: 
+                    if nome and nome not in processados:
                         processados.add(nome)
                         timestamp_base = harvested_at if harvested_at != 0 else planted_at
                         plantado_em = ms_to_datetime_local(timestamp_base)
                         tempo_crescimento = tempos_crescimento_minutos.get(nome)
 
-                        if tempo_crescimento: 
+                        if tempo_crescimento:
                             pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                             tempo_faltando = (pronto_em - agora).total_seconds()
                             lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
-            # Processar honey
-            for beehive_id, beehive_info in honey.items(): 
+            # Processar colmeias
+            for beehive_id, beehive_info in honey.items():
                 honey_data = beehive_info.get('honey', {})
                 nome = f"Colmeia {beehive_id}"
                 planted_at = honey_data.get('updatedAt')
 
-                if planted_at and nome not in processados: 
+                if planted_at and nome not in processados:
                     processados.add(nome)
                     plantado_em = ms_to_datetime_local(planted_at)
                     tempo_crescimento = tempos_crescimento_minutos.get("Honey")
@@ -153,72 +152,75 @@ while True:
                     tempo_faltando = (pronto_em - agora).total_seconds()
                     lista_itens.append(("Honey", plantado_em, pronto_em, tempo_faltando))
 
-            # Processar Flower
-            for flower_info in flowers.values(): 
+            # Processar flores
+            for flower_info in flowers.values():
                 flower_data = flower_info.get('flower', {})
                 nome = flower_data.get('name')
                 planted_at = flower_data.get('plantedAt')
 
-                if nome and planted_at and nome not in processados: 
+                if nome and planted_at and nome not in processados:
                     processados.add(nome)
                     plantado_em = ms_to_datetime_local(planted_at)
                     tempo_crescimento = tempos_crescimento_minutos.get("Flower")
-                    
+
                     pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                     tempo_faltando = (pronto_em - agora).total_seconds()
                     lista_itens.append(("Flower", plantado_em, pronto_em, tempo_faltando))
-                    
-            # Processar compost bin
-            for Compost_bin_info in Compost_bin: 
-                Compost_bin_data = Compost_bin_info.get('producing', {})
-                nome = "Compost Bin"
-                planted_at = Compost_bin_data.get('startedAt')
 
-                if nome and planted_at and nome not in processados: 
+            # Processar Compost Bin
+            for compost_info in compost_bins:
+                compost_data = compost_info.get('producing', {})
+                nome = "Compost Bin"
+                planted_at = compost_data.get('startedAt')
+
+                if nome and planted_at and nome not in processados:
                     processados.add(nome)
                     plantado_em = ms_to_datetime_local(planted_at)
                     tempo_crescimento = tempos_crescimento_minutos.get("Compost Bin")
-                    
+
                     pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                     tempo_faltando = (pronto_em - agora).total_seconds()
                     lista_itens.append(("Compost Bin", plantado_em, pronto_em, tempo_faltando))
 
+            # Ordenar lista pelo tempo restante
             lista_itens.sort(key=itemgetter(3))
 
             print("\n===> PLANTADOS E FRUTAS:\n")
 
-            for nome, plantado_em, pronto_em, tempo_faltando in lista_itens: 
+            for nome, plantado_em, pronto_em, tempo_faltando in lista_itens:
                 emoji = get_emoji_for_plant(nome)
 
-                if tempo_faltando > 0: 
-                    cont += 1
+                if tempo_faltando > 0:
                     horas = int(tempo_faltando // 3600)
                     minutos = int((tempo_faltando % 3600) // 60)
                     status = f"{horas}h {minutos}min restantes"
                     cor = Fore.YELLOW
-                    if cont == len(lista_itens): # Compara o tamanho da lista com o contador, se for igual, significa que todos estão em produção
-                        cont = 0
-                        notificadas.clear()
-                        save_notified(notificadas)
-                else: 
+                else:
                     status = "🌟 Pronto para colher!"
                     cor = Fore.GREEN
-                    if nome not in notificadas: 
+
+                    # Limpar notificações antigas se o item foi colhido
+                    if nome in notificadas:
+                        notificadas.remove(nome)
+                        save_notified(notificadas)
+
+                    # Enviar nova notificação
+                    if nome not in notificadas:
                         send_push_notification(f"{emoji} {nome} Pronto para Colher!", f"{nome} está pronto para ser colhido!")
                         notificadas.add(nome)
-                        save_notified(notificadas)# salvamos o nome da planta que foi notificada, para não notificar novamente.
+                        save_notified(notificadas)
 
                 print(f"{emoji} {cor}{nome}")
                 print(f"   - Plantado em: {plantado_em.strftime('%d/%m/%Y %H:%M:%S')}")
                 print(f"   - Ficará pronto em: {pronto_em.strftime('%d/%m/%Y %H:%M:%S')}")
                 print(f"   - Status: {status}\n")
 
-        else: 
+        else:
             print(f"Falha ao acessar a API. Status code: {response.status_code}")
 
         time.sleep(10)
         os.system('cls' if os.name == 'nt' else 'clear')
 
-    except Exception as e: 
+    except Exception as e:
         print(f"Erro durante a execução: {e}")
         time.sleep(10)

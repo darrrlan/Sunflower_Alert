@@ -43,7 +43,7 @@
             "Autumn Duckling": "1",
             "Winter Duckling": "1",
             "Soybean Seed": "107",
-            "Cabbage Seed": "323",
+            "Cabbage Seed": "295",
             "Love Charm": "2556",
             "Crab": "1",
             "Rhubarb Seed": "493",
@@ -64,7 +64,7 @@
             "Eggplant": "109.5",
             "Parsnip": "92.7",
             "Crimstone Rock": "1",
-            "Honey": "16",
+            "Honey": "17",
             "Scary Mike": "1",
             "Beetroot": "211.4",
             "Zucchini Seed": "33",
@@ -91,18 +91,17 @@
             "Carrot Seed": "47",
             "Apple Seed": "9",
             "Banana Plant": "16",
-            "Sunpetal Seed": "4",
+            "Sunpetal Seed": "3",
             "Magic Mushroom": "3",
-            "Purple Cosmos": "2",
+            "Purple Cosmos": "3",
             "Fried Tofu": "2",
-            "Cabbage": "69.3",
+            "Cabbage": "139.6",
             "Wheat Seed": "2",
-            "Kale": "5",
             "Yellow Pansy": "1",
             "Parsnip Seed": "83",
             "Sunflower Cake": "1",
             "Easter Ticket 2025": "1",
-            "Blueberry": "4",
+            "Blueberry": "6",
             "Kale Seed": "5"
         },
         "previousInventory": {
@@ -433,11 +432,11 @@
                 "Collectible Placed": 24,
                 "Carrot Sold": 10,
                 "Club Sandwich Fed": 1,
-                "Cabbage Planted": 404,
+                "Cabbage Planted": 441,
                 "Cabbage Seed Bought": 680,
                 "Fried Tofu Cooked": 75,
                 "Fried Tofu Fed": 73,
-                "Cabbage Harvested": 371,
+                "Cabbage Harvested": 408,
                 "Bumpkin Broth Cooked": 19,
                 "Bumpkin Broth Fed": 19,
                 "Iron Mined": 10,
@@ -477,7 +476,7 @@
                 "Zucchini Seed Bought": 520,
                 "Radish Cake Fed": 1,
                 "Sunpetal Seed Bought": 16,
-                "Sunpetal Seed Planted": 12,
+                "Sunpetal Seed Planted": 13,
                 "Potato Seed Bought": 1350,
                 "Zucchini Harvested": 539,
                 "Potato Planted": 1527,
@@ -488,7 +487,7 @@
                 "Eggplant Planted": 103,
                 "Eggplant Seed Bought": 100,
                 "Eggplant Harvested": 103,
-                "Honey Harvested": 11,
+                "Honey Harvested": 12,
                 "Yellow Pansy Harvested": 2,
                 "Scary Mike Crafted": 1,
                 "Beetroot Seed Bought": 380,
@@ -518,7 +517,7 @@
                 "Tornado Pinwheel Crafted": 1,
                 "Tomato Harvested": 80,
                 "Yam Harvested": 244,
-                "Purple Cosmos Harvested": 3,
+                "Purple Cosmos Harvested": 4,
                 "Bumpkin Salad Cooked": 1,
                 "Artichoke Planted": 35,
                 "Artichoke Seed Bought": 60,
@@ -543,7 +542,7 @@
                 "Easter Ticket 2025 Bought": 1,
                 "Earthworm Sold": 10,
                 "Parsnip Harvested": 37,
-                "Blueberry Harvested": 4
+                "Blueberry Harvested": 6
             },
             "updatedAt": 1743832563572,
             "paidSkillResets": 0,
@@ -783,18 +782,10 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "ff847587",
-                    "plantedAt": 1745870048626,
+                    "id": "e343ff08",
+                    "plantedAt": 1745875332503,
                     "name": "Cabbage",
-                    "amount": 1.9,
-                    "reward": {
-                        "items": [
-                            {
-                                "amount": 3,
-                                "name": "Cabbage Seed"
-                            }
-                        ]
-                    }
+                    "amount": 1.9
                 }
             },
             "2": {
@@ -804,8 +795,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "e2659940",
-                    "plantedAt": 1745870048776,
+                    "id": "35d7282f",
+                    "plantedAt": 1745875333765,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -817,8 +808,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "c61976c8",
-                    "plantedAt": 1745870049153,
+                    "id": "042bd2f6",
+                    "plantedAt": 1745875332690,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -830,8 +821,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "28f80385",
-                    "plantedAt": 1745870048435,
+                    "id": "b1242484",
+                    "plantedAt": 1745875332338,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -843,8 +834,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "49779181",
-                    "plantedAt": 1745870051249,
+                    "id": "e362c1de",
+                    "plantedAt": 1745875334901,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -856,8 +847,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "b5a70331",
-                    "plantedAt": 1745870046860,
+                    "id": "dc6bfdcd",
+                    "plantedAt": 1745875330737,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -869,18 +860,10 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "c67fd0c3",
-                    "plantedAt": 1745870047023,
+                    "id": "6235d2ec",
+                    "plantedAt": 1745875330927,
                     "name": "Cabbage",
-                    "amount": 1.9,
-                    "reward": {
-                        "items": [
-                            {
-                                "amount": 3,
-                                "name": "Cabbage Seed"
-                            }
-                        ]
-                    }
+                    "amount": 1.9
                 }
             },
             "8": {
@@ -890,8 +873,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "d51395f8",
-                    "plantedAt": 1745870047189,
+                    "id": "d35130fd",
+                    "plantedAt": 1745875331089,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -903,8 +886,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "2b5e2b37",
-                    "plantedAt": 1745870047554,
+                    "id": "272f72b2",
+                    "plantedAt": 1745875331287,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -916,18 +899,10 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "24168c7f",
-                    "plantedAt": 1745870047732,
+                    "id": "7ac2f3ae",
+                    "plantedAt": 1745875331458,
                     "name": "Cabbage",
-                    "amount": 1.9,
-                    "reward": {
-                        "items": [
-                            {
-                                "amount": 3,
-                                "name": "Cabbage Seed"
-                            }
-                        ]
-                    }
+                    "amount": 1.9
                 }
             },
             "11": {
@@ -937,8 +912,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "0921e055",
-                    "plantedAt": 1745870049321,
+                    "id": "23800c45",
+                    "plantedAt": 1745875333070,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -950,8 +925,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "0280db13",
-                    "plantedAt": 1745870050876,
+                    "id": "186247ba",
+                    "plantedAt": 1745875334687,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -963,8 +938,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "cbfb4609",
-                    "plantedAt": 1745870047895,
+                    "id": "d4b94241",
+                    "plantedAt": 1745875331658,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -976,8 +951,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "aae2c6b6",
-                    "plantedAt": 1745870049515,
+                    "id": "2082fb1d",
+                    "plantedAt": 1745875333263,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -989,8 +964,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "81aed798",
-                    "plantedAt": 1745870050707,
+                    "id": "7801e6bc",
+                    "plantedAt": 1745875334509,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1002,8 +977,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "44a796fa",
-                    "plantedAt": 1745870041468,
+                    "id": "83ee27f6",
+                    "plantedAt": 1745875325456,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1015,8 +990,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "e78acfdf",
-                    "plantedAt": 1745870043132,
+                    "id": "4236e8c5",
+                    "plantedAt": 1745875327292,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1028,8 +1003,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "c6aaa2b7",
-                    "plantedAt": 1745870045171,
+                    "id": "12885713",
+                    "plantedAt": 1745875328876,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1041,8 +1016,8 @@
                 "x": 2,
                 "y": 4,
                 "crop": {
-                    "id": "3c947248",
-                    "plantedAt": 1745870042518,
+                    "id": "904fb295",
+                    "plantedAt": 1745875326128,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1054,8 +1029,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "c2fb7c4a",
-                    "plantedAt": 1745870045330,
+                    "id": "c2588cd2",
+                    "plantedAt": 1745875329054,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1067,8 +1042,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "57b33833",
-                    "plantedAt": 1745870043490,
+                    "id": "9473ce42",
+                    "plantedAt": 1745875328507,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1080,8 +1055,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "eb954e59",
-                    "plantedAt": 1745870045851,
+                    "id": "a96a4d1f",
+                    "plantedAt": 1745875329389,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1093,8 +1068,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "317e6a78",
-                    "plantedAt": 1745870044782,
+                    "id": "221a1eb9",
+                    "plantedAt": 1745875327825,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1106,8 +1081,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "f47a0b08",
-                    "plantedAt": 1745870043308,
+                    "id": "94e50bb9",
+                    "plantedAt": 1745875327475,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1119,8 +1094,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "7e21b0c0",
-                    "plantedAt": 1745870043836,
+                    "id": "cf01eaf0",
+                    "plantedAt": 1745875327655,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1132,8 +1107,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "56baa619",
-                    "plantedAt": 1745870050516,
+                    "id": "56c18445",
+                    "plantedAt": 1745875334312,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1145,8 +1120,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "ce26830a",
-                    "plantedAt": 1745870046198,
+                    "id": "49e23869",
+                    "plantedAt": 1745875329745,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1158,8 +1133,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "f51662d5",
-                    "plantedAt": 1745870041796,
+                    "id": "f3ebaa4f",
+                    "plantedAt": 1745875326677,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1171,8 +1146,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "8612cb44",
-                    "plantedAt": 1745870046036,
+                    "id": "0b9ccade",
+                    "plantedAt": 1745875330388,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1184,8 +1159,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "983bfa22",
-                    "plantedAt": 1745870045671,
+                    "id": "c14d13d3",
+                    "plantedAt": 1745875329226,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1197,8 +1172,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "67582754",
-                    "plantedAt": 1745870050362,
+                    "id": "7ef83702",
+                    "plantedAt": 1745875334159,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1210,8 +1185,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "575ac943",
-                    "plantedAt": 1745870044016,
+                    "id": "b8cbe32b",
+                    "plantedAt": 1745875328003,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1223,8 +1198,8 @@
                 "x": -2,
                 "y": 4,
                 "crop": {
-                    "id": "5675f5b9",
-                    "plantedAt": 1745870041644,
+                    "id": "7a6ad229",
+                    "plantedAt": 1745875325618,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1236,8 +1211,8 @@
                 "x": 0,
                 "y": 4,
                 "crop": {
-                    "id": "3bb997f5",
-                    "plantedAt": 1745870041973,
+                    "id": "a01c2b0a",
+                    "plantedAt": 1745875325795,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1249,8 +1224,8 @@
                 "x": 1,
                 "y": 4,
                 "crop": {
-                    "id": "dd710b0a",
-                    "plantedAt": 1745870042354,
+                    "id": "1267a6f6",
+                    "plantedAt": 1745875325959,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1262,8 +1237,8 @@
                 "x": -3,
                 "y": -2,
                 "crop": {
-                    "id": "133e7aad",
-                    "plantedAt": 1745870052180,
+                    "id": "d8e6d38a",
+                    "plantedAt": 1745875335692,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1275,8 +1250,8 @@
                 "x": 2,
                 "y": -1,
                 "crop": {
-                    "id": "a275d987",
-                    "plantedAt": 1745870051414,
+                    "id": "a1339440",
+                    "plantedAt": 1745875335066,
                     "name": "Cabbage",
                     "amount": 1.9
                 }
@@ -1702,8 +1677,8 @@
                     "name": "Blueberry",
                     "plantedAt": 1745812728411,
                     "amount": 1,
-                    "harvestedAt": 1745855960860,
-                    "harvestsLeft": 2
+                    "harvestedAt": 1745877634064,
+                    "harvestsLeft": 1
                 }
             },
             "2": {
@@ -1756,8 +1731,8 @@
                 "y": -7,
                 "fruit": {
                     "amount": 1,
-                    "harvestedAt": 1745855962148,
-                    "harvestsLeft": 3,
+                    "harvestedAt": 1745877634262,
+                    "harvestsLeft": 2,
                     "name": "Blueberry",
                     "plantedAt": 1745812728755
                 }
@@ -1773,7 +1748,7 @@
                     "y": -2,
                     "createdAt": 1744829365145,
                     "flower": {
-                        "plantedAt": 1745793395196,
+                        "plantedAt": 1745879837123,
                         "amount": 1,
                         "name": "Purple Cosmos"
                     }
@@ -1788,12 +1763,12 @@
                 "y": -1,
                 "honey": {
                     "produced": 0,
-                    "updatedAt": 1745793395196
+                    "updatedAt": 1745879837123
                 },
                 "flowers": [
                     {
-                        "attachedAt": 1745793395196,
-                        "attachedUntil": 1745879795196,
+                        "attachedAt": 1745879837123,
+                        "attachedUntil": 1745966237123,
                         "id": "0",
                         "rate": 1
                     }
@@ -2045,7 +2020,7 @@
             "Yellow Cosmos Harvested": 1,
             "Blue Cosmos Harvested": 3,
             "Blue Cosmos Bountied": 1,
-            "Purple Cosmos Harvested": 3,
+            "Purple Cosmos Harvested": 4,
             "Red Pansy Harvested": 2
         },
         "milestones": {},
