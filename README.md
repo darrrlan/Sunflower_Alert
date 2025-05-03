@@ -13,7 +13,8 @@
 - Participar de eventos sazonais e especiais.
 - Trocar e vender itens como NFTs no mercado.
 
-![Imagem do jogo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsunflower-land.com%2F&psig=AOvVaw03_vqT3xDhn3pQdOxiXJdg&ust=1746398928380000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiHnJKxiI0DFQAAAAAdAAAAABAQ)
+![farm b4df88b0](https://github.com/user-attachments/assets/8e7a5a73-834e-4fbf-9b2d-967ca84f0606)
+
 
 ## 🚀 Funcionalidades do Sunflower Alert
 
