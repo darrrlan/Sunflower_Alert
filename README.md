@@ -42,7 +42,11 @@
 
 ## ⚙️ Uso
 
-1. Configure o arquivo `dados_fazenda.json` com as informações das fazendas que deseja monitorar.
+1. Configure o arquivo script.py com as informações das fazendas que deseja monitorar. Modifique a URL para a fazenda que deseja acompanhar:
+
+   ```bash
+   url = "https://api.sunflower-land.com/visit/{id_fazenda}"
+    ```
 
 2. Execute o script principal:
 
@@ -66,5 +70,7 @@ Sunflower_Alert/
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+---
 
 *Nota: As imagens utilizadas são de propriedade do Sunflower Land e são utilizadas aqui apenas para fins ilustrativos.*
