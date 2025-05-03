@@ -4,12 +4,12 @@
         "balance": "19.29028",
         "previousBalance": "0",
         "inventory": {
-            "Sunflower": "799.8",
+            "Sunflower": "599.8",
             "Potato": "629.2",
             "Pumpkin": "1221",
             "Carrot": "235.7000000000000105",
             "Cabbage": "752.8",
-            "Beetroot": "455.9",
+            "Beetroot": "526.2",
             "Cauliflower": "110.3",
             "Parsnip": "314.8",
             "Wheat": "15.7",
@@ -17,10 +17,10 @@
             "Apple": "37",
             "Blueberry": "69",
             "Eggplant": "109.5",
-            "Corn": "5.9",
+            "Corn": "15.9",
             "Banana": "6",
             "Purple Cosmos": "4",
-            "Soybean": "402",
+            "Soybean": "387",
             "Tomato": "50",
             "Lemon": "10",
             "Barley": "19",
@@ -37,7 +37,7 @@
             "Lunar Calendar": "1",
             "Basic Scarecrow": "1",
             "Scary Mike": "1",
-            "Fried Tofu": "16",
+            "Fried Tofu": "17",
             "Wood": "35.9",
             "Stone": "20.2",
             "Iron": "3",
@@ -92,7 +92,7 @@
             "Trade Point": "4.25",
             "Pepper Seed": "31",
             "Zucchini Seed": "33",
-            "Beetroot Seed": "56",
+            "Beetroot Seed": "21",
             "Cauliflower Seed": "400",
             "Eggplant Seed": "4",
             "Radish Seed": "35",
@@ -136,7 +136,8 @@
             "Pizza Margherita": "1",
             "Sauerkraut": "1",
             "Beetroot Blaze": "1",
-            "Fruitful Blend": "3"
+            "Fruitful Blend": "2",
+            "Love Charm": "5"
         },
         "previousInventory": {
             "Sunflower": "1049.8",
@@ -531,7 +532,7 @@
                 "Club Sandwich Fed": 1,
                 "Cabbage Planted": 922,
                 "Cabbage Seed Bought": 1100,
-                "Fried Tofu Cooked": 94,
+                "Fried Tofu Cooked": 95,
                 "Fried Tofu Fed": 78,
                 "Cabbage Harvested": 926,
                 "Bumpkin Broth Cooked": 29,
@@ -588,8 +589,8 @@
                 "Yellow Pansy Harvested": 3,
                 "Scary Mike Crafted": 1,
                 "Beetroot Seed Bought": 620,
-                "Beetroot Planted": 642,
-                "Beetroot Harvested": 605,
+                "Beetroot Planted": 679,
+                "Beetroot Harvested": 642,
                 "Sunflower Cake Fed": 2,
                 "Yellow Cosmos Harvested": 1,
                 "Pepper Sold": 5,
@@ -908,8 +909,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "77dc6a36",
-                    "plantedAt": 1746292043690,
+                    "id": "bf9db052",
+                    "plantedAt": 1746303222067,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -921,8 +922,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "e3d89a9a",
-                    "plantedAt": 1746292043830,
+                    "id": "0c4234ca",
+                    "plantedAt": 1746303221223,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -934,8 +935,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "18f83302",
-                    "plantedAt": 1746292044001,
+                    "id": "a1d8a736",
+                    "plantedAt": 1746303221041,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -947,8 +948,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "72e6628d",
-                    "plantedAt": 1746292043500,
+                    "id": "7e698815",
+                    "plantedAt": 1746303221423,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -960,8 +961,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "62259c3c",
-                    "plantedAt": 1746292044943,
+                    "id": "a92b3f75",
+                    "plantedAt": 1746303220027,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -973,8 +974,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "cfa82cc0",
-                    "plantedAt": 1746292042681,
+                    "id": "b6c2b5b8",
+                    "plantedAt": 1746303223147,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -986,8 +987,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "54ef5ca6",
-                    "plantedAt": 1746292043302,
+                    "id": "142b6d05",
+                    "plantedAt": 1746303222978,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -999,8 +1000,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "52a90bcd",
-                    "plantedAt": 1746292042353,
+                    "id": "14a7cadf",
+                    "plantedAt": 1746303222781,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1012,8 +1013,8 @@
                 "height": 1,
                 "width": 1,
                 "crop": {
-                    "id": "50525d87",
-                    "plantedAt": 1746292042190,
+                    "id": "8de462ad",
+                    "plantedAt": 1746303222617,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1025,8 +1026,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "8b171f12",
-                    "plantedAt": 1746292042026,
+                    "id": "975a28a5",
+                    "plantedAt": 1746303223566,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1038,8 +1039,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "bda56e8d",
-                    "plantedAt": 1746292044197,
+                    "id": "b5f3b55a",
+                    "plantedAt": 1746303220878,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1051,8 +1052,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "6934dc89",
-                    "plantedAt": 1746292045109,
+                    "id": "9486c860",
+                    "plantedAt": 1746303219828,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1064,8 +1065,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "4893d733",
-                    "plantedAt": 1746292041861,
+                    "id": "23421109",
+                    "plantedAt": 1746303222435,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1077,8 +1078,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "d98cb8d8",
-                    "plantedAt": 1746292044342,
+                    "id": "9b9a907b",
+                    "plantedAt": 1746303220679,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1090,8 +1091,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "6d53e72f",
-                    "plantedAt": 1746292045264,
+                    "id": "fbe3b456",
+                    "plantedAt": 1746303219646,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1103,8 +1104,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "74a6c65f",
-                    "plantedAt": 1746292036386,
+                    "id": "1445714c",
+                    "plantedAt": 1746303228164,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1116,8 +1117,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "8f50e099",
-                    "plantedAt": 1746292040220,
+                    "id": "28bef8b2",
+                    "plantedAt": 1746303226061,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1129,18 +1130,10 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "5a7a4522",
-                    "plantedAt": 1746292040651,
+                    "id": "9ed09a70",
+                    "plantedAt": 1746303224852,
                     "name": "Beetroot",
-                    "amount": 1.9,
-                    "reward": {
-                        "items": [
-                            {
-                                "amount": 2,
-                                "name": "Beetroot Seed"
-                            }
-                        ]
-                    }
+                    "amount": 1.9
                 }
             },
             "57046650": {
@@ -1150,8 +1143,8 @@
                 "x": 2,
                 "y": 4,
                 "crop": {
-                    "id": "ea9d46e7",
-                    "plantedAt": 1746292038954,
+                    "id": "97b44acc",
+                    "plantedAt": 1746303227275,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1163,8 +1156,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "28b27ea7",
-                    "plantedAt": 1746292040827,
+                    "id": "dacd274b",
+                    "plantedAt": 1746303224687,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1176,8 +1169,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "5e5485db",
-                    "plantedAt": 1746292039902,
+                    "id": "00aad677",
+                    "plantedAt": 1746303226685,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1189,8 +1182,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "cbeed5f8",
-                    "plantedAt": 1746292041132,
+                    "id": "50323812",
+                    "plantedAt": 1746303224325,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1202,8 +1195,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "f32328c6",
-                    "plantedAt": 1746292039574,
+                    "id": "68f28032",
+                    "plantedAt": 1746303226934,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1215,8 +1208,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "40d2efea",
-                    "plantedAt": 1746292040080,
+                    "id": "9fbcf0e9",
+                    "plantedAt": 1746303225896,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1228,8 +1221,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "21fed688",
-                    "plantedAt": 1746292039725,
+                    "id": "866d8e2d",
+                    "plantedAt": 1746303225534,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1241,8 +1234,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "aa2ca217",
-                    "plantedAt": 1746292045437,
+                    "id": "e7dce119",
+                    "plantedAt": 1746303219465,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1254,8 +1247,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "ce0c56cf",
-                    "plantedAt": 1746292041488,
+                    "id": "e31155a0",
+                    "plantedAt": 1746303223969,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1267,8 +1260,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "12fecd69",
-                    "plantedAt": 1746292038447,
+                    "id": "a853798c",
+                    "plantedAt": 1746303227817,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1280,8 +1273,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "cfd2f73b",
-                    "plantedAt": 1746292041316,
+                    "id": "91a38244",
+                    "plantedAt": 1746303224144,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1293,8 +1286,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "9d0a873a",
-                    "plantedAt": 1746292040962,
+                    "id": "f5203e35",
+                    "plantedAt": 1746303224523,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1306,8 +1299,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "2c63e471",
-                    "plantedAt": 1746292045599,
+                    "id": "a3391356",
+                    "plantedAt": 1746303219300,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1319,8 +1312,8 @@
                 "width": 1,
                 "height": 1,
                 "crop": {
-                    "id": "fc97f955",
-                    "plantedAt": 1746292039416,
+                    "id": "98e4cb98",
+                    "plantedAt": 1746303225342,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1332,8 +1325,8 @@
                 "x": -2,
                 "y": 4,
                 "crop": {
-                    "id": "974a81de",
-                    "plantedAt": 1746292038304,
+                    "id": "aed54255",
+                    "plantedAt": 1746303228012,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1345,8 +1338,8 @@
                 "x": 0,
                 "y": 4,
                 "crop": {
-                    "id": "2e6b56e8",
-                    "plantedAt": 1746292038622,
+                    "id": "66c24591",
+                    "plantedAt": 1746303227460,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1358,8 +1351,8 @@
                 "x": 1,
                 "y": 4,
                 "crop": {
-                    "id": "b95b7bbe",
-                    "plantedAt": 1746292038785,
+                    "id": "d0f2de27",
+                    "plantedAt": 1746303228478,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1371,8 +1364,8 @@
                 "x": -3,
                 "y": -2,
                 "crop": {
-                    "id": "0885e7a3",
-                    "plantedAt": 1746292046107,
+                    "id": "270330be",
+                    "plantedAt": 1746303219134,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1384,8 +1377,8 @@
                 "x": 2,
                 "y": -1,
                 "crop": {
-                    "id": "cc552578",
-                    "plantedAt": 1746292044773,
+                    "id": "eddd092f",
+                    "plantedAt": 1746303220144,
                     "name": "Beetroot",
                     "amount": 1.9
                 }
@@ -1864,9 +1857,13 @@
                 "fruit": {
                     "name": "Blueberry",
                     "plantedAt": 1746290969160,
-                    "amount": 1,
+                    "amount": 1.1,
                     "harvestedAt": 0,
                     "harvestsLeft": 4
+                },
+                "fertiliser": {
+                    "name": "Fruitful Blend",
+                    "fertilisedAt": 1746305645242
                 }
             },
             "4f48c15f": {
@@ -1987,14 +1984,6 @@
                             "boost": {
                                 "Oil": 0
                             },
-                            "readyAt": 1746302121860,
-                            "amount": 1
-                        },
-                        {
-                            "name": "Fried Tofu",
-                            "boost": {
-                                "Oil": 0
-                            },
                             "readyAt": 1746307521860,
                             "amount": 1
                         },
@@ -2012,6 +2001,14 @@
                                 "Oil": 0
                             },
                             "readyAt": 1746318321860,
+                            "amount": 1
+                        },
+                        {
+                            "name": "Fried Tofu",
+                            "boost": {
+                                "Oil": 0
+                            },
+                            "readyAt": 1746323721860,
                             "amount": 1
                         }
                     ],
@@ -2935,7 +2932,7 @@
                     "petXP": 1200,
                     "score": 139.2,
                     "collectivePet": {
-                        "totalXP": 6532800,
+                        "totalXP": 6679800,
                         "goalXP": 2568360,
                         "goalReached": true,
                         "streak": 4,
@@ -3525,8 +3522,8 @@
                 "openedAt": 1744027346246
             },
             "quest": {
-                "startAt": 1746309616677,
-                "name": "desert-rune",
+                "startAt": 1746396651475,
+                "name": "fox-theft",
                 "choices": []
             }
         },

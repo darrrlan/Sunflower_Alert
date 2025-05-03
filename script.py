@@ -60,6 +60,7 @@ tempos_crescimento_minutos = {
     "White Cosmos": 24 * 60,
     "Blue Cosmos": 24 * 60,
     "Prism Petal": 24 * 60,
+    "Bot do Telegram": 24 * 60,
     "Wheat": 24 * 60,
     "Kale": 36 * 60,
     "Blueberry": 6 * 60,
@@ -232,6 +233,24 @@ while True:
                     pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                     tempo_faltando = (pronto_em - agora).total_seconds()
                     lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
+                    # Processar Quest
+                    quest_data = data.get('state', {}).get('telegram', {}).get('quest', {})
+        
+                    if quest_data:
+                        nome = "Bot do Telegram" 
+                        start_at = quest_data.get("startAt")
+
+                        if nome and start_at and nome not in processados:
+                            processados.add(nome)
+                            plantado_em = ms_to_datetime_local(start_at) - datetime.timedelta(hours=24)
+                            tempo_crescimento = tempos_crescimento_minutos.get(nome, 0)  # Define 0 se não encontrado
+
+                            pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
+                            tempo_faltando = (pronto_em - agora).total_seconds()
+
+                            lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
+                                    
+                                
             # Ordenar lista pelo tempo restante
             lista_itens.sort(key=itemgetter(3))
 
@@ -261,9 +280,9 @@ while True:
         else:
             print(f"Falha ao acessar a API. Status code: {response.status_code}")
 
-        time.sleep(9.8)
+        time.sleep(9.7)
         os.system('cls' if os.name == 'nt' else 'clear')
 
     except Exception as e:
         print(f"Erro durante a execução: {e}")
-        time.sleep(9.8)
+        time.sleep(9.7)
