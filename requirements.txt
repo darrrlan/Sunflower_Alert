@@ -1,0 +1,5 @@
+colorama
+operator
+pushbullet
+pytz
+requests
