@@ -1,5 +1,6 @@
 
 # 🌻 Sunflower Alert
+![k4jzfmLxSx-](https://github.com/user-attachments/assets/f4098693-f0f3-4fe3-99a4-5bc26ad338e6)
 
 **Sunflower Alert** é uma ferramenta automatizada para monitorar fazendas no jogo [Sunflower Land](https://sunflower-land.com/), notificando quando determinadas condições são atendidas, como a disponibilidade de recursos ou eventos específicos.
 
