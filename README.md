@@ -63,20 +63,8 @@ Sunflower_Alert/
 └── requirements.txt         # Dependências do projeto
 ```
 
-## 📸 Imagens do Jogo
-
-![Fazenda no jogo](https://sunflower-land.com/images/farm.png)
-
-![Interface do jogo](https://sunflower-land.com/images/interface.png)
-
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
 
 *Nota: As imagens utilizadas são de propriedade do Sunflower Land e são utilizadas aqui apenas para fins ilustrativos.*
