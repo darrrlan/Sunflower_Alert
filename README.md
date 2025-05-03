@@ -15,7 +15,7 @@
 - Trocar e vender itens como NFTs no mercado.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8e7a5a73-834e-4fbf-9b2d-967ca84f0606" alt="farm b4df88b0" width="600"/>
+  <img src="https://github.com/user-attachments/assets/8e7a5a73-834e-4fbf-9b2d-967ca84f0606" alt="farm b4df88b0" width="1200"/>
 </p>
 
 
