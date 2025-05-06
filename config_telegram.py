@@ -1,0 +1,4 @@
+# config_telegram.py
+
+TELEGRAM_BOT_TOKEN = "SEU_TOKEN_AQUI"
+TELEGRAM_CHAT_ID = "SEU_CHAT_ID_AQUI"
