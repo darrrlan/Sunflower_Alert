@@ -1,5 +1,6 @@
 
 # 🌻 Sunflower Alert
+![k4jzfmLxSx-](https://github.com/user-attachments/assets/f4098693-f0f3-4fe3-99a4-5bc26ad338e6)
 
 **Sunflower Alert** é uma ferramenta automatizada para monitorar fazendas no jogo [Sunflower Land](https://sunflower-land.com/), notificando quando determinadas condições são atendidas, como a disponibilidade de recursos ou eventos específicos.
 
@@ -12,10 +13,6 @@
 - Criar animais e cozinhar receitas.
 - Participar de eventos sazonais e especiais.
 - Trocar e vender itens como NFTs no mercado.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8e7a5a73-834e-4fbf-9b2d-967ca84f0606" alt="farm b4df88b0" width="600"/>
-</p>
 
 
 
@@ -42,7 +39,11 @@
 
 ## ⚙️ Uso
 
-1. Configure o arquivo `dados_fazenda.json` com as informações das fazendas que deseja monitorar.
+1. Configure o arquivo script.py com as informações das fazendas que deseja monitorar. Modifique a URL para a fazenda que deseja acompanhar:
+
+   ```bash
+   url = "https://api.sunflower-land.com/visit/{id_fazenda}"
+    ```
 
 2. Execute o script principal:
 
@@ -66,5 +67,7 @@ Sunflower_Alert/
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+---
 
 *Nota: As imagens utilizadas são de propriedade do Sunflower Land e são utilizadas aqui apenas para fins ilustrativos.*
