@@ -1,4 +1,4 @@
 # config_telegram.py
 
-TELEGRAM_BOT_TOKEN = "SEU_TOKEN_AQUI"
-TELEGRAM_CHAT_ID = "SEU_CHAT_ID_AQUI"
+TELEGRAM_API_KEY = "8107929187:AAE77zIyISsgdavHpM5BDqfb_VJWWsmJ7AM"  # Substitua com seu token real
+TELEGRAM_CHAT_ID = "7346871852"  # Substitua com seu chat ID
