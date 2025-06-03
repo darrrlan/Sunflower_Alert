@@ -3,28 +3,23 @@ import datetime
 import pytz
 import json
 import time
-import os
-from pushbullet import Pushbullet
 from operator import itemgetter
 from colorama import init, Fore
 import telegram
-import config_telegram  # Importa o arquivo de configurações do Telegram
+import asyncio
+import config_telegram
 
-# Inicializar colorama
 init(autoreset=True)
 
-cont = 0
-
-# URL para acessar as informações da API
 url = "https://api.sunflower-land.com/visit/1444484773494499"
 
 tempos_crescimento_minutos = {
     "Fried Tofu": 0,
     "Mashed Potato": 0,
     "Rhubarb Tart": 0,
-    "Pumpkin Soup": 0, 
+    "Pumpkin Soup": 0,
     "Reindeer Carrot": 0,
-    "Mushroom Soup": 0,  
+    "Mushroom Soup": 0,
     "Boiled Eggs": 0,
     "Bumpkin Broth": 0,
     "Popcorn": 0,
@@ -63,31 +58,34 @@ tempos_crescimento_minutos = {
     "White Cosmos": 24 * 60,
     "Blue Cosmos": 24 * 60,
     "Prism Petal": 24 * 60,
-    "Bot do Telegram": 24 * 60,
     "Wheat": 24 * 60,
     "Kale": 36 * 60,
     "Blueberry": 6 * 60,
+    "Tomato" : 2 * 60,
 }
 
 fuso_brasil = pytz.timezone('America/Sao_Paulo')
 
 
 def ms_to_datetime_local(ms):
-    dt = datetime.datetime.fromtimestamp(ms / 1000)
-    return fuso_brasil.localize(dt)
+    """Converte timestamp em milissegundos para datetime local com fuso horário correto"""
+    dt_utc = datetime.datetime.fromtimestamp(ms / 1000, tz=pytz.UTC)
+    dt_local = dt_utc.astimezone(fuso_brasil)
+    return dt_local
 
 
-def send_push_notification(title, message):
-    pb = Pushbullet("o.uxbBCN8ez4NQMqOfk6RtTT2baO9fOzcS")
-    pb.push_note(title, message)
 
+def send_telegram_notification_sync(message):
+    """Função síncrona para enviar mensagem via Telegram usando asyncio.run internamente"""
+    async def send():
+        bot = telegram.Bot(token=config_telegram.TELEGRAM_API_KEY)
+        chat_id = config_telegram.TELEGRAM_CHAT_ID
+        await bot.send_message(chat_id=chat_id, text=message)
 
-def send_telegram_notification(message):
-    # Usa as credenciais importadas do arquivo config_telegram.py
-    bot = telegram.Bot(token=config_telegram.TELEGRAM_API_KEY)
-    print(bot)
-    chat_id = config_telegram.TELEGRAM_CHAT_ID
-    bot.send_message(chat_id=chat_id, text=message)
+    try:
+        asyncio.run(send())
+    except Exception as e:
+        print(f"Erro ao enviar notificação Telegram: {e}")
 
 
 def load_notified():
@@ -105,23 +103,26 @@ def save_notified(notified):
 
 notificadas = load_notified()
 
+send_telegram_notification_sync("Bot iniciado e funcionando!")
+
 while True:
     try:
         response = requests.get(url)
-
         if response.status_code == 200:
             data = response.json()
 
             with open('dados_fazenda.json', 'w') as json_file:
                 json.dump(data, json_file, indent=4)
 
-            crops = data.get('state', {}).get('crops', {})
-            fruitPatches = data.get('state', {}).get('fruitPatches', {})
-            honey = data.get('state', {}).get('beehives', {})
-            flowers = data.get('state', {}).get('flowers', {}).get('flowerBeds', {})
-            compost_bins = data.get('state', {}).get('buildings', {}).get('Compost Bin', {})
-            turbo_composters = data.get('state', {}).get('buildings', {}).get('Turbo Composter', {})
-            fire_pits = data.get('state', {}).get('buildings', {}).get('Fire Pit', [])
+            state = data.get('state', {})
+            crops = state.get('crops', {})
+            fruitPatches = state.get('fruitPatches', {})
+            honey = state.get('beehives', {})
+            flowers = state.get('flowers', {}).get('flowerBeds', {}) if 'flowers' in state else {}
+            buildings = state.get('buildings', {})
+            compost_bins = buildings.get('Compost Bin', [])
+            turbo_composters = buildings.get('Turbo Composter', [])
+            fire_pits = buildings.get('Fire Pit', [])
 
             lista_itens = []
             agora = datetime.datetime.now(fuso_brasil)
@@ -136,12 +137,11 @@ while True:
                 if nome and planted_at and nome not in processados:
                     processados.add(nome)
                     plantado_em = ms_to_datetime_local(planted_at)
-                    tempo_crescimento = tempos_crescimento_minutos.get(nome)
+                    tempo_crescimento = tempos_crescimento_minutos.get(nome, 0)
 
-                    if tempo_crescimento:
-                        pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
-                        tempo_faltando = (pronto_em - agora).total_seconds()
-                        lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
+                    pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
+                    tempo_faltando = (pronto_em - agora).total_seconds()
+                    lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
             # Processar frutas
             for fruit_info in fruitPatches.values():
@@ -153,11 +153,11 @@ while True:
 
                     if nome and nome not in processados:
                         processados.add(nome)
-                        timestamp_base = harvested_at if harvested_at != 0 else planted_at
-                        plantado_em = ms_to_datetime_local(timestamp_base)
-                        tempo_crescimento = tempos_crescimento_minutos.get(nome)
+                        timestamp_base = harvested_at if harvested_at and harvested_at != 0 else planted_at
+                        if timestamp_base:
+                            plantado_em = ms_to_datetime_local(timestamp_base)
+                            tempo_crescimento = tempos_crescimento_minutos.get(nome, 0)
 
-                        if tempo_crescimento:
                             pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
                             tempo_faltando = (pronto_em - agora).total_seconds()
                             lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
@@ -166,98 +166,71 @@ while True:
             for beehive_id, beehive_info in honey.items():
                 honey_data = beehive_info.get('honey', {})
                 nome = f"Colmeia {beehive_id}"
-                updated_at = honey_data.get('updatedAt')  # último update em ms
-                produced_ms = honey_data.get('produced', 0)  # tempo produzido em ms
+                updated_at = honey_data.get('updatedAt')  # ms
+                produced_ms = honey_data.get('produced', 0)  # ms
 
                 if updated_at and nome not in processados:
                     processados.add(nome)
 
-                    # Hora inicial da produção (quando começou a produzir)
                     started_at = updated_at - produced_ms
-
                     plantado_em = ms_to_datetime_local(started_at)
-
-                    tempo_crescimento = tempos_crescimento_minutos.get("Honey", 24 * 60)  # 24h padrão
-
-                    # Hora em que o mel estará pronto (início + tempo fixo de crescimento)
+                    tempo_crescimento = tempos_crescimento_minutos.get("Honey", 24 * 60)
                     pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
-
                     tempo_faltando = (pronto_em - agora).total_seconds()
 
-                    lista_itens.append(("Honey", plantado_em, pronto_em, tempo_faltando))
-
+                    lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
             # Processar flores
-            for flower_info in flowers.values():
-                flower_data = flower_info.get('flower', {})
-                nome = flower_data.get('name')
-                planted_at = flower_data.get('plantedAt')
+            if isinstance(flowers, dict):
+                for flower_info in flowers.values():
+                    flower_data = flower_info.get('flower', {})
+                    nome = flower_data.get('name')
+                    planted_at = flower_data.get('plantedAt')
 
-                if nome and planted_at and nome not in processados:
-                    processados.add(nome)
-                    plantado_em = ms_to_datetime_local(planted_at)
-                    tempo_crescimento = tempos_crescimento_minutos.get(nome)
+                    if nome and planted_at and nome not in processados:
+                        processados.add(nome)
+                        plantado_em = ms_to_datetime_local(planted_at)
+                        tempo_crescimento = tempos_crescimento_minutos.get(nome, 0)
 
-                    pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
-                    tempo_faltando = (pronto_em - agora).total_seconds()
-                    lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
+                        pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
+                        tempo_faltando = (pronto_em - agora).total_seconds()
+                        lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
-            # Processar Compost Bin
-            for compost_info in compost_bins:
-                compost_data = compost_info.get('producing', {})
-                items = compost_data.get('items', {})
-                nome = next(iter(items), None)
+            # Processar Compost Bin e Turbo Composter (mesmo tratamento)
+            for compost_list in [compost_bins, turbo_composters]:
+                for compost_info in compost_list:
+                    compost_data = compost_info.get('producing', {})
+                    items = compost_data.get('items', {})
+                    nome = next(iter(items), None)
 
-                startedAt = compost_data.get('startedAt')
-                readyAt = compost_data.get('readyAt')
-                
+                    startedAt = compost_data.get('startedAt')
+                    readyAt = compost_data.get('readyAt')
 
-                if nome and startedAt and nome not in processados:
-                    processados.add(nome)
-                    plantado_em = ms_to_datetime_local(startedAt)
-                    tempo_crescimento = ms_to_datetime_local(readyAt)
+                    if nome and startedAt and readyAt and nome not in processados:
+                        processados.add(nome)
+                        plantado_em = ms_to_datetime_local(startedAt)
+                        pronto_em = ms_to_datetime_local(readyAt)
 
-                    tempo_faltando = (tempo_crescimento - agora).total_seconds()
-                    lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
-
-            # Processar Turbo Composter
-            for compost_info in turbo_composters:
-                compost_data = compost_info.get('producing', {})
-                items = compost_data.get('items', {})
-                nome = next(iter(items), None)
-
-                startedAt = compost_data.get('startedAt')
-                readyAt = compost_data.get('readyAt')
-
-                if nome and startedAt and nome not in processados:
-                    processados.add(nome)
-                    plantado_em = ms_to_datetime_local(startedAt)
-                    tempo_crescimento = ms_to_datetime_local(readyAt)
-
-                    tempo_faltando = (tempo_crescimento - agora).total_seconds()
-                    lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
+                        tempo_faltando = (pronto_em - agora).total_seconds()
+                        lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
             # Processar Fire Pit
             for fire_info in fire_pits:
-                fire_data = fire_info.get('crafting', {})
-                if fire_data:
-                    item = fire_data[0]  # Pega apenas o primeiro item
+                fire_data = fire_info.get('crafting', [])
+                if isinstance(fire_data, list) and len(fire_data) > 0:
+                    item = fire_data[0]
                     nome = item.get("name")
+                    readyAt = item.get("readyAt")
 
-                    planted_at = item.get("readyAt")
+                    if nome and readyAt and nome not in processados:
+                        processados.add(nome)
+                        tempo_crescimento_min = tempos_crescimento_minutos.get(nome, 0)
+                        plantado_em = ms_to_datetime_local(readyAt - tempo_crescimento_min * 60 * 1000)
+                        pronto_em = ms_to_datetime_local(readyAt)
 
-                if nome and planted_at and nome not in processados:
-                    processados.add(nome)
-                    plantado_em = ms_to_datetime_local(planted_at)
-                    print("oi")
-                    print(plantado_em)
-                    tempo_crescimento = tempos_crescimento_minutos.get(nome)
+                        tempo_faltando = (pronto_em - agora).total_seconds()
+                        lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
 
-                    pronto_em = plantado_em + datetime.timedelta(minutes=tempo_crescimento)
-                    tempo_faltando = (pronto_em - agora).total_seconds()
-                    lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
-                    
-            # Ordenar lista pelo tempo restante
             lista_itens.sort(key=itemgetter(3))
 
             print("\n===> PLANTADOS E FRUTAS:\n")
@@ -272,9 +245,8 @@ while True:
                     status = "Pronto para colher!"
                     cor = Fore.GREEN
 
-                    # Enviar nova notificação via Telegram
                     if nome not in notificadas:
-                        send_telegram_notification(f"{nome} está pronto para ser colhido!")
+                        send_telegram_notification_sync(f"{nome} está pronto para ser colhido!")
                         notificadas.add(nome)
                         save_notified(notificadas)
 
@@ -287,8 +259,7 @@ while True:
             print(f"Falha ao acessar a API. Status code: {response.status_code}")
 
         time.sleep(15.7)
-        os.system('cls' if os.name == 'nt' else 'clear')
 
     except Exception as e:
-        print(f"Erro durante a execução: {e}")
+        print(f"Ocorreu um erro: {e}")
         time.sleep(15.7)

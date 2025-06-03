@@ -2,3 +2,4 @@ colorama
 operator
 pytz
 requests
+python-telegram-bot

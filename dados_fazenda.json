@@ -48,7 +48,7 @@
             "Soybean": "290",
             "Deli": "1",
             "Magic Mushroom": "13",
-            "Wheat": "334.0000000000000003",
+            "Wheat": "314.0000000000000003",
             "Radish": "4",
             "Laurie the Chuckle Crow": "1",
             "Stone Pickaxe": "9",
@@ -95,13 +95,13 @@
             "Pickaxe": "15",
             "Tomato Seed": "11",
             "Celestine Seed": "5",
-            "Tomato": "435.2",
+            "Tomato": "405.2",
             "Fruitful Blend": "11",
             "Vase": "4",
             "Camel Bone": "3",
             "Smoothie Shack": "1",
             "Milk": "2",
-            "Cheese": "11",
+            "Cheese": "6",
             "Carrot": "70",
             "Bumpkin Broth": "1",
             "Sunpetal Seed": "6",
@@ -1997,7 +1997,19 @@
                     "id": "1123",
                     "readyAt": 0,
                     "cancelled": {},
-                    "crafting": [],
+                    "crafting": [
+                        {
+                            "name": "Pizza Margherita",
+                            "boost": {
+                                "Oil": 0
+                            },
+                            "skills": {
+                                "Double Nom": false
+                            },
+                            "readyAt": 1749057302778,
+                            "amount": 1
+                        }
+                    ],
                     "oil": 0
                 }
             ],
@@ -2836,7 +2848,7 @@
                     "petXP": 3800,
                     "score": 24,
                     "collectivePet": {
-                        "totalXP": 2066425,
+                        "totalXP": 2087625,
                         "goalXP": 4428711,
                         "goalReached": false,
                         "streak": 4,
