@@ -103,7 +103,7 @@ def save_notified(notified):
 
 notificadas = load_notified()
 
-send_telegram_notification_sync("Bot iniciado e funcionando!")
+# send_telegram_notification_sync("Bot iniciado e funcionando!")
 
 while True:
     try:
@@ -234,6 +234,15 @@ while True:
             lista_itens.sort(key=itemgetter(3))
 
             print("\n===> PLANTADOS E FRUTAS:\n")
+            
+            # Limpeza das notificações antigas que não estão mais na lista de prontos
+            nomes_prontos_atuais = {nome for nome, _, _, tempo_faltando in lista_itens if tempo_faltando <= 0}
+            notificadas_para_remover = notificadas - nomes_prontos_atuais
+
+            if notificadas_para_remover:
+                for nome in notificadas_para_remover:
+                    notificadas.remove(nome)
+                save_notified(notificadas)
 
             for nome, plantado_em, pronto_em, tempo_faltando in lista_itens:
                 if tempo_faltando > 0:
