@@ -62,6 +62,15 @@ tempos_crescimento_minutos = {
     "Kale": 36 * 60,
     "Blueberry": 6 * 60,
     "Tomato" : 2 * 60,
+    "Lemon" : 4*60,
+    "Celestine": 6 * 60,
+    "Lunara": 12 *60,
+    "Duskberry": 24 *60,
+    "Orange": 8 *60,
+    "Banana": 12 * 60,
+    "Grape" : 12 * 60,
+    "Rice" : 32 * 60,
+    "Olive" : 44 * 60,
 }
 
 fuso_brasil = pytz.timezone('America/Sao_Paulo')
