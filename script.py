@@ -14,6 +14,31 @@ init(autoreset=True)
 url = "https://api.sunflower-land.com/visit/1444484773494499"
 
 tempos_crescimento_minutos = {
+    "Sunflower Crunch": 0,
+    "Roast Veggies": 0,
+    "Club Sandwich": 0,
+    "Fruit salad": 0,
+    "Mushroom Jacket Potatoes": 0,
+    "Cauliflower Burger": 0,
+    "Bumpkin Salad": 0,
+    "Goblin's Treat": 0,
+    "Pancakes":0,
+    "Bumpkin ganoush": 0,
+    "Chowder": 0,
+    "Tofu Scramble": 0,
+    "Fish Burger": 0,
+    "Fried Calamari": 0,
+    "Fish Omelette": 0,
+    "Beetroot Blaze": 0,
+    "Ocean's olive": 0,
+    "Fish n Chips": 0,
+    "Sushi Roll": 0,
+    "Seafood Basket": 0,
+    "Bumpkin Roast": 0,
+    "Goblin Brunch": 0,
+    "Steamed Red Rice": 0,
+    "Caprese Salad": 0,
+    "Spaghetti al Limone": 0,
     "Fried Tofu": 0,
     "Mashed Potato": 0,
     "Rhubarb Tart": 0,
@@ -71,6 +96,7 @@ tempos_crescimento_minutos = {
     "Grape" : 12 * 60,
     "Rice" : 32 * 60,
     "Olive" : 44 * 60,
+    "Barley" : 48 * 60,
 }
 
 fuso_brasil = pytz.timezone('America/Sao_Paulo')
@@ -132,6 +158,7 @@ while True:
             compost_bins = buildings.get('Compost Bin', [])
             turbo_composters = buildings.get('Turbo Composter', [])
             fire_pits = buildings.get('Fire Pit', [])
+            kitchen_pits = buildings.get('Kitchen', [])
 
             lista_itens = []
             agora = datetime.datetime.now(fuso_brasil)
@@ -228,6 +255,26 @@ while True:
                 fire_data = fire_info.get('crafting', [])
                 if isinstance(fire_data, list) and len(fire_data) > 0:
                     item = fire_data[0]
+                    nome = item.get("name")
+                    readyAt = item.get("readyAt")
+
+                    if nome and readyAt and nome not in processados:
+                        processados.add(nome)
+                        tempo_crescimento_min = tempos_crescimento_minutos.get(nome, 0)
+                        plantado_em = ms_to_datetime_local(readyAt - tempo_crescimento_min * 60 * 1000)
+                        pronto_em = ms_to_datetime_local(readyAt)
+
+                        tempo_faltando = (pronto_em - agora).total_seconds()
+                        lista_itens.append((nome, plantado_em, pronto_em, tempo_faltando))
+
+
+
+
+            # Processar Kitchen
+            for kitchen_info in kitchen_pits:
+                kitchen_data = kitchen_info.get('crafting', [])
+                if isinstance(kitchen_data, list) and len(kitchen_data) > 0:
+                    item = kitchen_data[0]
                     nome = item.get("name")
                     readyAt = item.get("readyAt")
 
